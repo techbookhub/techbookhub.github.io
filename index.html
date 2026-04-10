@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBookHub | Premium IT Books & Resources</title>
+    <!-- Link to the newly separated CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <!-- Header / Navbar -->
+    <header>
+        <a href="#home" class="logo-container">
+            <div class="logo-t">T</div>
+            <div class="logo-text"><span class="tech">TechBook</span><span class="hub">Hub</span></div>
+        </a>
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle Navigation">☰</button>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#book-collection">Book Collection</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1 class="hero-title">Unlock Your IT <span>Potential</span></h1>
+        <p class="hero-desc">Langkah pertama untuk menjadi expert adalah referensi yang tepat. Temukan koleksi buku edukasi jaringan, programming, cybersecurity, dan cloud terbaik di sini.</p>
+        <a href="#book-collection" class="btn">Lihat Koleksi Buku</a>
+    </section>
+
+    <!-- Book Collection Section -->
+    <section id="book-collection">
+        <h2 class="section-title">Book Collection</h2>
+        
+        <!-- Filter Categories -->
+        <div class="category-filters">
+            <button class="filter-btn active" data-category="All">All Books</button>
+            <button class="filter-btn" data-category="Networking & Infrastructure">Networking & Infrastructure</button>
+            <button class="filter-btn" data-category="Programming & Development">Programming & Development</button>
+            <button class="filter-btn" data-category="Security & Assurance">Security & Assurance</button>
+            <button class="filter-btn" data-category="Cloud & Virtualization">Cloud & Virtualization</button>
+        </div>
+
+        <!-- Featured Books (Managed by JS) -->
+        <div id="featured-section" class="featured-section">
+            <div class="featured-label">⭐ Featured Book Choices</div>
+            <div class="books-grid" id="featured-container">
+                <!-- Data is injected via JavaScript here -->
+            </div>
+        </div>
+
+        <!-- Normal Books Grid (Managed by JS) -->
+        <h3 style="color:white; margin-bottom:1.5rem; font-size:1.5rem;">Top Popular Books</h3>
+        <div class="books-grid" id="books-container">
+            <!-- Data is injected via JavaScript here -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-card">
+            <h2 class="section-title" style="margin-bottom:1rem;">About TechBookHub</h2>
+            <p style="color: var(--text-muted); font-size:1.1rem; max-width:600px; margin: 0 auto;">TechBookHub adalah destinasi utama untuk literatur teknologi informasi paling mutakhir. Kami hadir untuk memberdayakan profesional IT dan enthusiast dengan referensi berkualitas tinggi.</p>
+            
+            <div class="contact-info">
+                <p>Email: <b>hello@techbookhub.com</b></p>
+                <p>Official Store: <a href="https://lynk.id/toko-buku" target="_blank">lynk.id/toko-buku</a></p>
+            </div>
+
+            <div class="social-links">
+                <!-- Social Text Icons -->
+                <a href="#" title="Instagram">IG</a>
+                <a href="#" title="Facebook">FB</a>
+                <a href="#" title="TikTok">TT</a>
+                <a href="#" title="LinkedIn">IN</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>TechBookHub</h3>
+                <p style="color:var(--text-muted); font-size:0.9rem;">Empowering your tech journey with the best resources.</p>
+                <p style="color:var(--text-muted); font-size:0.9rem; margin-top:1rem;">Email: hello@techbookhub.com</p>
+                <p style="color:var(--text-muted); font-size:0.9rem;"><a href="https://lynk.id/toko-buku" target="_blank" style="color:var(--primary-light);">Store: lynk.id/toko-buku</a></p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#book-collection">Book Collection</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#book-collection">Networking & Infrastructure</a></li>
+                    <li><a href="#book-collection">Programming & Development</a></li>
+                    <li><a href="#book-collection">Security & Assurance</a></li>
+                    <li><a href="#book-collection">Cloud & Virtualization</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 TechBookHub. All rights reserved.</p>
+            <div class="legal-links">
+                <a href="#">Kebijakan Privasi</a>
+                <a href="#">Syarat & Ketentuan</a>
+                <a href="#">Disclaimer</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Detail Produk Overlay -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">&times;</button>
+            
+            <h4 style="color:white; font-size:1.2rem; margin-bottom:1.5rem; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:10px;">📘 DETAIL PRODUK — E-BOOK</h4>
+            
+            <div class="modal-header">
+                <img src="" alt="Book Cover" class="modal-cover" id="m-cover">
+                <div class="modal-title-area">
+                    <h3 class="modal-book-title" id="m-title">Book Title</h3>
+                    <span class="modal-badge" id="m-category">Category</span>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <div class="modal-info-grid">
+                    <div class="modal-info-label">Nama File :</div><div id="m-file-name">-</div>
+                    <div class="modal-info-label">Type :</div><div id="m-type">-</div>
+                    <div class="modal-info-label">Size :</div><div id="m-size">-</div>
+                    <div class="modal-info-label">Halaman :</div><div id="m-pages">-</div>
+                    <div class="modal-info-label">Bahasa :</div><div id="m-lang">-</div>
+                </div>
+
+                <h4>🗂️ TOPIK YANG DIBAHAS :</h4>
+                <ul class="modal-list" id="m-topics">
+                    <!-- Injected via JS -->
+                </ul>
+
+                <h4>👥 AUDIENCE / PEMBACA :</h4>
+                <div class="audience-tags" id="m-audience-label">
+                    <!-- Injected via JS -->
+                </div>
+                <p class="modal-info-label" style="margin-top:0.5rem; color:var(--text-muted); font-size:0.9rem;">Cocok untuk:</p>
+                <ul class="modal-list" id="m-target">
+                     <!-- Injected via JS -->
+                </ul>
+
+                <h4>📌 TENTANG BUKU INI :</h4>
+                <p style="color:var(--text-muted); margin-bottom:1rem; font-style:italic;" id="m-review">
+                    <!-- Injected via JS -->
+                </p>
+
+                <h4>🔥 KENAPA BUKU INI WAJIB DIMILIKI?</h4>
+                <ul class="why-buy-list modal-list" id="m-why" style="margin-bottom:0;">
+                    <!-- Injected via JS -->
+                </ul>
+                
+                <div style="margin-top:2rem; text-align:right;">
+                    <a href="#" target="_blank" class="btn" id="m-buy-btn" style="width:100%; text-align:center;">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script that holds the data and logic -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
