@@ -1,4 +1,4 @@
-﻿const booksData = [
+const booksData = [
   // Featured Books (3)
   {
     id: "f1", title: "Advanced IT Networking & Routing", category: "Networking & Infrastructure", cover: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=400", isFeatured: true,
@@ -30,7 +30,7 @@
     id: "n1", title: "Linux Server Administration Base", category: "Networking & Infrastructure", cover: "https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&q=80&w=400", isFeatured: false,
     fileType: "PDF", size: "5 MB", pages: 210, language: "Bahasa Indonesia",
     topics: ["Terminal CLI Menengah", "Manajemen User & Hak Akses", "Service & Daemon (systemctl)"],
-    audienceLabel: "🔵 Professional", audience: ["IT Support", "Junior SysAdmin"],
+    audienceLabel: "🟢 Beginner", audience: ["IT Support", "Junior SysAdmin"],
     reviewInfo: "📝 Review Questions di setiap chapter.",
     whyBuy: ["Fondasi solid yang sangat diperlukan semua pekerja IT.", "Bahasa penyampaian yang mudah dipahami pemula."]
   },

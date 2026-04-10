@@ -161,7 +161,9 @@ function openModal(bookId) {
   if (audienceDiv) {
     const label = book.audienceLabel || '';
     let tagClass = '';
-    if (label.includes('🔵') || label.toLowerCase().includes('professional') || label.toLowerCase().includes('beginner')) {
+    if (label.includes('🟢') || label.toLowerCase().includes('beginner')) {
+      tagClass = 'tag-beginner';
+    } else if (label.includes('🔵') || label.toLowerCase().includes('professional')) {
       tagClass = 'tag-pro';
     } else if (label.includes('🔴') || label.toLowerCase().includes('expert') || label.toLowerCase().includes('advanced')) {
       tagClass = 'tag-expert';
