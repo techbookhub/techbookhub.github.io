@@ -141,9 +141,17 @@ section { min-height: 100vh; padding: 120px 5% 50px; display: flex; flex-directi
 .modal-info-grid { display: grid; grid-template-columns: 100px 1fr; gap: 0.5rem; color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem; }
 .modal-info-label { font-weight: 600; color: #cbd5e1; }
 
-.audience-tags { display: flex; gap: 1rem; margin-bottom: 1rem; }
-.tag-pro { color: #3b82f6; font-weight: 600; }
-.tag-expert { color: #ef4444; font-weight: 600; }
+.audience-tags { display: flex; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.tag-pro { 
+  display: inline-block; color: #93c5fd; font-weight: 700;
+  background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.4);
+  padding: 4px 14px; border-radius: 99px; font-size: 0.95rem;
+}
+.tag-expert { 
+  display: inline-block; color: #fca5a5; font-weight: 700;
+  background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.4);
+  padding: 4px 14px; border-radius: 99px; font-size: 0.95rem;
+}
 .why-buy-list { list-style: none; }
 .why-buy-list li::before { content: '✓ '; color: #10b981; font-weight: bold; }
 

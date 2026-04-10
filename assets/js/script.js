@@ -156,8 +156,22 @@ function openModal(bookId) {
   document.getElementById('m-pages').innerText = book.pages + " Halaman";
   document.getElementById('m-lang').innerText = book.language;
 
-  document.getElementById('m-audience-label').innerText = book.audienceLabel;
-  document.getElementById('m-review').innerText = book.reviewInfo;
+  // Issue #8 Fix: inject class CSS dinamis berdasarkan audienceLabel
+  const audienceDiv = document.getElementById('m-audience-label');
+  if (audienceDiv) {
+    const label = book.audienceLabel || '';
+    let tagClass = '';
+    if (label.includes('🔵') || label.toLowerCase().includes('professional') || label.toLowerCase().includes('beginner')) {
+      tagClass = 'tag-pro';
+    } else if (label.includes('🔴') || label.toLowerCase().includes('expert') || label.toLowerCase().includes('advanced')) {
+      tagClass = 'tag-expert';
+    }
+    audienceDiv.innerHTML = tagClass
+      ? `<span class="${tagClass}">${label}</span>`
+      : label;
+  }
+  document.getElementById('m-review').innerText = book.reviewInfo || '';
+
 
   const topicsUl = document.getElementById('m-topics');
   if(topicsUl) topicsUl.innerHTML = book.topics.map(t => '<li>' + t + '</li>').join('');
