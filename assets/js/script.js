@@ -1,4 +1,4 @@
-const lynkUrl = "https://lynk.id/toko-buku";
+const lynkUrl = "https://lynk.id/digitalitlibrary";
 const formatterIDR = new Intl.NumberFormat("id-ID", { style: "currency", currency: "IDR", minimumFractionDigits: 0 });
 
 // Global States
