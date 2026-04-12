@@ -6,7 +6,8 @@ const booksData = [
     topics: ["BGP & OSPF Implementation", "Subnetting Masterclass", "Cisco Router Configurations"],
     audienceLabel: "🔵 Professional", audience: ["Network Administrator", "Systems Engineer", "IT Infrastructure Specialist"],
     reviewInfo: "📝 Review Questions di setiap chapter beserta lab scenarios.",
-    whyBuy: ["Studi kasus implementasi jaringan enterprise modern.", "Panduan best practice standar sertifikasi CCNA/CCNP."]
+    whyBuy: ["Studi kasus implementasi jaringan enterprise modern.", "Panduan best practice standar sertifikasi CCNA/CCNP."],
+    price: 150000, coverPath: "assets/images/books/f1/cover.jpg", sampleImages: ["assets/images/books/f1/samples/sample-1.jpg"]
   },
   {
     id: "f2", title: "Mastering Python for Automation", category: "Programming & Development", cover: "https://images.unsplash.com/photo-1526379095098-d400fd0bfce8?auto=format&fit=crop&q=80&w=400", isFeatured: true,
@@ -14,7 +15,8 @@ const booksData = [
     topics: ["Scripting Dasar", "REST API Integration", "Automasi Teks dan File", "Web Scraping"],
     audienceLabel: "🔵 Professional", audience: ["DevOps Engineer", "Backend Developer", "System Administrator"],
     reviewInfo: "📝 Review Questions di setiap chapter disertai kode referensi.",
-    whyBuy: ["Menghemat waktu pengerjaan tugas server repetitif hingga 80%.", "Sangat relevan untuk cloud deployment modern."]
+    whyBuy: ["Menghemat waktu pengerjaan tugas server repetitif hingga 80%.", "Sangat relevan untuk cloud deployment modern."],
+    price: 120000, coverPath: "assets/images/books/f2/cover.jpg", sampleImages: ["assets/images/books/f2/samples/sample-1.jpg"]
   },
   {
     id: "f3", title: "Cybersecurity Defense Strategies", category: "Security & Assurance", cover: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=400", isFeatured: true,
@@ -22,7 +24,8 @@ const booksData = [
     topics: ["Information Assurance Framework", "Cryptography Standards", "Cyber Threat Intelligence", "Zero Trust Architecture"],
     audienceLabel: "🔴 Expert", audience: ["Security Analyst", "CISO", "Penetration Tester"],
     reviewInfo: "📝 Review Questions di setiap chapter + Real-World Attack Scenarios.",
-    whyBuy: ["Dilengkapi studi kasus serangan siber terkini di Indonesia.", "Strategi preventif yang applicable untuk perusahaan Tbk."]
+    whyBuy: ["Dilengkapi studi kasus serangan siber terkini di Indonesia.", "Strategi preventif yang applicable untuk perusahaan Tbk."],
+    price: 175000, coverPath: "assets/images/books/f3/cover.jpg", sampleImages: ["assets/images/books/f3/samples/sample-1.jpg"]
   },
   
   // Regular / Top 10 Books
@@ -32,7 +35,8 @@ const booksData = [
     topics: ["Terminal CLI Menengah", "Manajemen User & Hak Akses", "Service & Daemon (systemctl)"],
     audienceLabel: "🟢 Beginner", audience: ["IT Support", "Junior SysAdmin"],
     reviewInfo: "📝 Review Questions di setiap chapter.",
-    whyBuy: ["Fondasi solid yang sangat diperlukan semua pekerja IT.", "Bahasa penyampaian yang mudah dipahami pemula."]
+    whyBuy: ["Fondasi solid yang sangat diperlukan semua pekerja IT.", "Bahasa penyampaian yang mudah dipahami pemula."],
+    price: 99000, coverPath: "assets/images/books/n1/cover.jpg", sampleImages: ["assets/images/books/n1/samples/sample-1.jpg"]
   },
   {
     id: "p1", title: "Clean API Design", category: "Programming & Development", cover: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=400", isFeatured: false,
@@ -40,7 +44,8 @@ const booksData = [
     topics: ["RESTful Principles", "GraphQL Basics", "API Security (OAuth2)"],
     audienceLabel: "🔵 Professional", audience: ["Software Engineer", "Frontend Developer"],
     reviewInfo: "📝 Review Questions di setiap chapter.",
-    whyBuy: ["Standard industri dari perusahaan FAANG.", "Membantu membuat arsitektur aplikasi yang scalable."]
+    whyBuy: ["Standard industri dari perusahaan FAANG.", "Membantu membuat arsitektur aplikasi yang scalable."],
+    price: 135000, coverPath: "assets/images/books/p1/cover.jpg", sampleImages: ["assets/images/books/p1/samples/sample-1.jpg"]
   },
   {
     id: "s1", title: "Applied Cryptography Fundamentals", category: "Security & Assurance", cover: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&q=80&w=400", isFeatured: false,
@@ -48,7 +53,8 @@ const booksData = [
     topics: ["Symmetric & Asymmetric Keys", "Hashing Algorithms", "Digital Signatures"],
     audienceLabel: "🔴 Expert", audience: ["Security Engineer", "Backend Developer"],
     reviewInfo: "📝 Review Questions di setiap chapter.",
-    whyBuy: ["Teori mendalam namun dengan implementasi kode matematis yang mudah dipahami."]
+    whyBuy: ["Teori mendalam namun dengan implementasi kode matematis yang mudah dipahami."],
+    price: 180000, coverPath: "assets/images/books/s1/cover.jpg", sampleImages: ["assets/images/books/s1/samples/sample-1.jpg"]
   },
   {
     id: "c1", title: "Cloud Native with Kubernetes", category: "Cloud & Virtualization", cover: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?auto=format&fit=crop&q=80&w=400", isFeatured: false,
@@ -56,6 +62,17 @@ const booksData = [
     topics: ["Docker Containers", "Kubernetes Pods & Services", "Helm Charts", "CI/CD Integration"],
     audienceLabel: "🔴 Expert", audience: ["DevOps Engineer", "Cloud Architect"],
     reviewInfo: "📝 Review Questions di setiap chapter.",
-    whyBuy: ["Buku terlaris No.1 untuk persiapan CKA (Certified Kubernetes Administrator).", "Lebih dari 50+ latihan praktik lab command line."]
+    whyBuy: ["Buku terlaris No.1 untuk persiapan CKA (Certified Kubernetes Administrator).", "Lebih dari 50+ latihan praktik lab command line."],
+    price: 195000, coverPath: "assets/images/books/c1/cover.jpg", sampleImages: ["assets/images/books/c1/samples/sample-1.jpg"]
+  },
+  {
+    id: "d1", title: "Introduction to Machine Learning", category: "Data Science & AI", cover: "https://images.unsplash.com/photo-1555949963-aa79dcee57d5?auto=format&fit=crop&q=80&w=400", isFeatured: false,
+    fileType: "PDF", size: "11 MB", pages: 320, language: "English",
+    topics: ["Supervised Learning", "Neural Networks", "Data Preprocessing", "Model Evaluation"],
+    audienceLabel: "🔵 Professional", audience: ["Data Scientist", "AI Engineer", "Software Developer"],
+    reviewInfo: "📝 Full hands-on project examples with Python.",
+    whyBuy: ["Materi esensial untuk memulai karir di AI.", "Disertai source code Jupyter Notebook."],
+    price: 160000, coverPath: "assets/images/books/d1/cover.jpg", sampleImages: ["assets/images/books/d1/samples/sample-1.jpg"]
   }
 ];
+

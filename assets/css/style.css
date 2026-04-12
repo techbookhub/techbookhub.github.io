@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap');
+/* Google Fonts are now preconnected via HTML link tags for faster loading */
 
 :root {
   --primary: #6366f1;
@@ -12,12 +12,12 @@
   --glass-border: rgba(255, 255, 255, 0.08);
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Outfit', sans-serif; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { background-color: var(--bg-dark); color: var(--text-main); line-height: 1.6; overflow-x: hidden; }
+body { font-family: 'Outfit', sans-serif; background-color: var(--bg-dark); color: var(--text-main); line-height: 1.6; overflow-x: hidden; }
 
 /* Background glows */
-.bg-glow { position: fixed; border-radius: 50%; filter: blur(150px); opacity: 0.15; z-index: -1; pointer-events: none;}
+.bg-glow { position: fixed; border-radius: 50%; filter: blur(150px); opacity: 0.15; z-index: -1; pointer-events: none; will-change: transform; transform: translateZ(0); }
 .glow-1 { top: -10%; left: -10%; width: 500px; height: 500px; background: var(--primary); }
 .glow-2 { bottom: -10%; right: -10%; width: 600px; height: 600px; background: var(--secondary); }
 
@@ -164,7 +164,8 @@ section { min-height: 100vh; padding: 120px 5% 50px; display: flex; flex-directi
 #about { min-height: 60vh; align-items: center; justify-content: center;}
 .about-card { background: var(--glass-bg); border: 1px solid var(--glass-border); padding: 3rem; border-radius: 24px; max-width: 800px; width: 100%; text-align: center; }
 .social-links { display: flex; justify-content: center; gap: 1.5rem; margin-top: 2rem; }
-.social-links a { color: var(--text-main); font-size: 1.1rem; font-weight:bold; letter-spacing:1px; text-decoration:none; transition: color 0.3s; background: rgba(255,255,255,0.05); width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; border-radius: 50%; border: 1px solid var(--glass-border); }
+.social-links a { color: var(--text-main); font-size: 1.1rem; font-weight:bold; letter-spacing:1px; text-decoration:none; transition: color 0.3s, background 0.3s; background: rgba(255,255,255,0.05); width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; border-radius: 50%; border: 1px solid var(--glass-border); }
+.social-links a svg { width: 24px; height: 24px; fill: currentColor; }
 .social-links a:hover { color: white; background: var(--primary); border-color: var(--primary); box-shadow: 0 5px 15px rgba(99,102,241,0.4);}
 .contact-info { margin-top: 2rem; color: var(--text-muted); font-size:1.1rem; line-height:2;}
 .contact-info a { color: var(--primary-light); text-decoration: none; }
@@ -196,7 +197,21 @@ footer { background: var(--bg-darker); border-top: 1px solid var(--glass-border)
     align-items: center; border-bottom: 1px solid var(--glass-border);
     transform: translateY(-20px); opacity: 0; pointer-events: none; transition: all 0.3s ease;
   }
-  nav ul.active { transform: translateY(0); opacity: 1; pointer-events: all; }
+  nav ul.active {
+    opacity: 1; pointer-events: all; transform: translateY(0);
+  }
+
   .footer-bottom { flex-direction: column; text-align: center; }
   section { padding: 100px 5% 50px; }
 }
+
+/* Pricing and Asset Features */
+.book-price { font-size: 1.4rem; font-weight: 800; color: #fbbf24; margin-bottom: 1rem; }
+.m-price-tag { font-size: 1.3rem; font-weight: 700; color: #fbbf24; margin: 1rem 0; display: inline-block; background: rgba(251, 191, 36, 0.1); padding: 5px 15px; border-radius: 8px; border: 1px solid rgba(251, 191, 36, 0.3); }
+
+.samples-container { display: flex; gap: 1rem; overflow-x: auto; padding: 10px 0; margin-bottom: 1.5rem; scrollbar-width: thin; }
+.samples-container::-webkit-scrollbar { height: 6px; }
+.samples-container::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.05); border-radius: 10px; }
+.samples-container::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); border-radius: 10px; }
+.sample-img { width: 120px; height: 160px; object-fit: cover; border-radius: 8px; border: 1px solid var(--glass-border); transition: transform 0.3s, border-color 0.3s; cursor: pointer; flex-shrink: 0; background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(168, 85, 247, 0.1)); }
+.sample-img:hover { transform: scale(1.05); border-color: var(--primary-light); }

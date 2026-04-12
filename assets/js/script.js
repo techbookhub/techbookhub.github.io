@@ -1,4 +1,5 @@
-const lynkUrl = "https://lynk.id/toko-buku";
+const lynkUrl = "https://lynk.id/digitalitlibrary";
+const formatterIDR = new Intl.NumberFormat("id-ID", { style: "currency", currency: "IDR", minimumFractionDigits: 0 });
 
 // Global States
 let activeCategory = 'All';
@@ -41,13 +42,24 @@ function setupMobileMenu() {
   }
 }
 
+// Utility: Debounce function to prevent render-blocking on typing
+function debounce(func, delay) {
+  let timeoutId;
+  return function (...args) {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      func.apply(this, args);
+    }, delay);
+  };
+}
+
 function setupSearchAndLoadMore() {
   if(searchInput) {
-    searchInput.addEventListener('input', (e) => {
+    searchInput.addEventListener('input', debounce((e) => {
       currentSearchQuery = e.target.value.toLowerCase();
       currentLimit = 12; // Reset limit saat mencari
       renderBooks();
-    });
+    }, 300));
   }
   if(loadMoreBtn) {
     loadMoreBtn.addEventListener('click', () => {
@@ -60,13 +72,17 @@ function setupSearchAndLoadMore() {
 function createCardHTML(book) {
   // Bug #3 Fix: onerror fallback agar broken image tidak merusak layout grid
   const coverFallback = `this.style.display='none'; this.parentElement.style.background='linear-gradient(135deg, rgba(99,102,241,0.2), rgba(168,85,247,0.2))'`;
+  const imageSrc = book.coverPath || book.cover;
+  const priceFormatted = book.price ? formatterIDR.format(book.price) : '';
+
   return `
     <div class="book-card">
       <div class="book-cover">
         <span class="book-tag">${book.category.split(' ')[0]}</span>
-        <img src="${book.cover}" alt="${book.title}" loading="lazy" onerror="${coverFallback}">
+        <img src="${imageSrc}" alt="${book.title}" loading="lazy" onerror="${coverFallback}">
       </div>
       <h3 class="book-title">${book.title}</h3>
+      ${priceFormatted ? `<p class="book-price">${priceFormatted}</p>` : ''}
       <div class="book-actions">
         <button class="btn-outline" onclick="openModal('${book.id}')">Details</button>
         <a href="${lynkUrl}" target="_blank" class="btn-buy">Beli</a>
@@ -146,15 +162,31 @@ function openModal(bookId) {
 
   document.getElementById('m-title').innerText = book.title;
   document.getElementById('m-category').innerText = book.category;
-  document.getElementById('m-cover').src = book.cover;
+  document.getElementById('m-cover').src = book.coverPath || book.cover;
   
-  // Bug #2 Fix: optional chaining + fallback agar tidak crash jika fileType kosong
+  const mPrice = document.getElementById('m-price');
+  if(mPrice) {
+    mPrice.innerText = book.price ? formatterIDR.format(book.price) : 'Gratis / TBD';
+  }
+  
   const fileType = book.fileType || 'N/A';
   document.getElementById('m-file-name').innerText = book.title.replace(/\s+/g, '_') + '.' + fileType.split(' ')[0].toLowerCase();
   document.getElementById('m-type').innerText = fileType;
   document.getElementById('m-size').innerText = book.size;
   document.getElementById('m-pages').innerText = book.pages + " Halaman";
   document.getElementById('m-lang').innerText = book.language;
+
+  // Render Samples Gallery
+  const mSamples = document.getElementById('m-samples');
+  if (mSamples) {
+     if (book.sampleImages && book.sampleImages.length > 0) {
+        // Feature: Sample image fallback
+        const sampleFallback = `this.style.display='none'`;
+        mSamples.innerHTML = book.sampleImages.map(src => `<img src="${src}" class="sample-img" alt="Sample from ${book.title}" onerror="${sampleFallback}">`).join('');
+     } else {
+        mSamples.innerHTML = `<p style="color:var(--text-muted); font-size:0.9rem;">Belum ada capture sample untuk produk ini.</p>`;
+     }
+  }
 
   // Issue #8 Fix: inject class CSS dinamis berdasarkan audienceLabel
   const audienceDiv = document.getElementById('m-audience-label');
