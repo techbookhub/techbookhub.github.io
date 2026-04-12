@@ -40,6 +40,11 @@
     <!-- Book Collection Section -->
     <section id="book-collection">
         <h2 class="section-title">Book Collection</h2>
+
+        <!-- Search Bar -->
+        <div class="search-container" style="margin: 0 auto 2.5rem; max-width: 600px; width: 100%;">
+            <input type="text" id="searchInput" placeholder="🔍 Menelusuri judul buku atau kata kunci..." style="width: 100%; padding: 1.2rem 2rem; border-radius: 99px; background: rgba(255,255,255,0.05); border: 2px solid var(--primary-light); color: white; font-size: 1.1rem; outline: none; transition: 0.3s; box-shadow: 0 4px 20px rgba(99, 102, 241, 0.2);" onfocus="this.style.borderColor='var(--primary)'; this.style.boxShadow='0 4px 25px rgba(168, 85, 247, 0.4)'" onblur="this.style.borderColor='var(--primary-light)'; this.style.boxShadow='0 4px 20px rgba(99, 102, 241, 0.2)'">
+        </div>
         
         <!-- Filter Categories -->
         <div class="category-filters">
@@ -62,6 +67,9 @@
         <h3 style="color:white; margin-bottom:1.5rem; font-size:1.5rem;">Top Popular Books</h3>
         <div class="books-grid" id="books-container">
             <!-- Data is injected via JavaScript here -->
+        </div>
+        <div id="load-more-container" style="text-align: center; margin-bottom: 2rem; display: none;">
+            <button id="load-more-btn" class="btn" style="background: transparent; border: 1px solid var(--primary); color: white;">Tampilkan Lebih Banyak ⬇</button>
         </div>
     </section>
 
@@ -178,6 +186,7 @@
     </div>
 
     <!-- Script that holds the data and logic -->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/booksData.js?v=20260410"></script>
+    <script src="assets/js/script.js?v=20260410"></script>
 </body>
 </html>
