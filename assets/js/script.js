@@ -42,13 +42,24 @@ function setupMobileMenu() {
   }
 }
 
+// Utility: Debounce function to prevent render-blocking on typing
+function debounce(func, delay) {
+  let timeoutId;
+  return function (...args) {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      func.apply(this, args);
+    }, delay);
+  };
+}
+
 function setupSearchAndLoadMore() {
   if(searchInput) {
-    searchInput.addEventListener('input', (e) => {
+    searchInput.addEventListener('input', debounce((e) => {
       currentSearchQuery = e.target.value.toLowerCase();
       currentLimit = 12; // Reset limit saat mencari
       renderBooks();
-    });
+    }, 300));
   }
   if(loadMoreBtn) {
     loadMoreBtn.addEventListener('click', () => {

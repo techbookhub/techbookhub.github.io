@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap');
+/* Google Fonts are now preconnected via HTML link tags for faster loading */
 
 :root {
   --primary: #6366f1;
@@ -12,12 +12,12 @@
   --glass-border: rgba(255, 255, 255, 0.08);
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Outfit', sans-serif; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { background-color: var(--bg-dark); color: var(--text-main); line-height: 1.6; overflow-x: hidden; }
+body { font-family: 'Outfit', sans-serif; background-color: var(--bg-dark); color: var(--text-main); line-height: 1.6; overflow-x: hidden; }
 
 /* Background glows */
-.bg-glow { position: fixed; border-radius: 50%; filter: blur(150px); opacity: 0.15; z-index: -1; pointer-events: none;}
+.bg-glow { position: fixed; border-radius: 50%; filter: blur(150px); opacity: 0.15; z-index: -1; pointer-events: none; will-change: transform; transform: translateZ(0); }
 .glow-1 { top: -10%; left: -10%; width: 500px; height: 500px; background: var(--primary); }
 .glow-2 { bottom: -10%; right: -10%; width: 600px; height: 600px; background: var(--secondary); }
 

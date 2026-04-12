@@ -64,6 +64,15 @@ const booksData = [
     reviewInfo: "📝 Review Questions di setiap chapter.",
     whyBuy: ["Buku terlaris No.1 untuk persiapan CKA (Certified Kubernetes Administrator).", "Lebih dari 50+ latihan praktik lab command line."],
     price: 195000, coverPath: "assets/images/books/c1/cover.jpg", sampleImages: ["assets/images/books/c1/samples/sample-1.jpg"]
+  },
+  {
+    id: "d1", title: "Introduction to Machine Learning", category: "Data Science & AI", cover: "https://images.unsplash.com/photo-1555949963-aa79dcee57d5?auto=format&fit=crop&q=80&w=400", isFeatured: false,
+    fileType: "PDF", size: "11 MB", pages: 320, language: "English",
+    topics: ["Supervised Learning", "Neural Networks", "Data Preprocessing", "Model Evaluation"],
+    audienceLabel: "🔵 Professional", audience: ["Data Scientist", "AI Engineer", "Software Developer"],
+    reviewInfo: "📝 Full hands-on project examples with Python.",
+    whyBuy: ["Materi esensial untuk memulai karir di AI.", "Disertai source code Jupyter Notebook."],
+    price: 160000, coverPath: "assets/images/books/d1/cover.jpg", sampleImages: ["assets/images/books/d1/samples/sample-1.jpg"]
   }
 ];
 
