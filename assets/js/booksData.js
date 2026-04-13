@@ -19,29 +19,29 @@
       "OT & IoT Security (SCADA, Industrial Control Systems, Physical Security)",
       "Compliance & Legal (Regulasi, SLA, Legal & Regulatory Issues)"
     ],
-    audienceLabel: "ðŸ”´ Professional | Expert", 
+    audienceLabel: "Professional | Expert",
     audience: [
-      "Kandidat ujian ISC2 SSCP", 
-      "Security Analyst & Security Administrator", 
-      "SOC Analyst, Risk Analyst & Compliance Officer", 
-      "Network Engineer yang beralih ke bidang Security", 
+      "Kandidat ujian ISC2 SSCP",
+      "Security Analyst & Security Administrator",
+      "SOC Analyst, Risk Analyst & Compliance Officer",
+      "Network Engineer yang beralih ke bidang Security",
       "Profesional yang mempersiapkan diri menuju CISSP"
     ],
     reviewInfo: "Official Study Guide edisi ketiga untuk sertifikasi ISC2 SSCP dari organisasi sertifikasi cybersecurity paling bergengsi di dunia. Pendekatan unik berbasis Decision Assurance dan People Power menjadikan buku ini bukan sekadar panduan teknis, tetapi juga panduan membangun budaya keamanan di seluruh organisasi. Catatan : Disarankan sudah memiliki pengalaman kerja minimal 1 tahun di bidang IT Security",
     whyBuy: [
-      "Assessment Test di awal buku", 
-      "Exam Essentials di setiap chapter", 
-      "Review Questions + Kunci Jawaban lengkap", 
-      "Domain Coverage penuh sesuai blueprint SSCP", 
+      "Assessment Test di awal buku",
+      "Exam Essentials di setiap chapter",
+      "Review Questions + Kunci Jawaban lengkap",
+      "Domain Coverage penuh sesuai blueprint SSCP",
       "Framework eksklusif CIANA+PS dari ISC2"
     ],
-    price: 240000, 
-    coverPath: "assets/images/books/isc2-sscp/cover/1775989251010_7700035.webp", 
+    price: 240000,
+    coverPath: "assets/images/books/isc2-sscp/cover/1775989251010_7700035.webp",
     sampleImages: ["assets/images/books/isc2-sscp/sample/1775989251402_7310970.webp"],
     buyUrl: "https://lynk.id/digitalitlibrary/l0mj1onnkgmz"
   },
   {
-    id: "live2", title: "Docker Tutorial for Beginners â€” Build, Ship and Run by Dennis Hutten", category: "Cloud & Virtualization", cover: "", isFeatured: false,
+    id: "live2", title: "Docker Tutorial for Beginners Build, Ship and Run by Dennis Hutten", category: "Cloud & Virtualization", cover: "", isFeatured: false,
     fileType: "PDF", size: "7.49 MB", pages: 187, language: "English",
     topics: [
       "Docker Overview & Instalasi (Konsep dasar container, instalasi di Linux, Docker Hub)",
@@ -56,7 +56,7 @@
       "Docker Compose (Multi-container apps, Compose file, orkestrasi sederhana)",
       "CI/CD & Kubernetes (Continuous Integration, arsitektur Kubernetes, cara kerja Kubernetes)"
     ],
-    audienceLabel: "ðŸŸ¢ Beginner | Intermediate", 
+    audienceLabel: "Beginner | Intermediate",
     audience: [
       "Developer yang baru mengenal containerization",
       "DevOps Engineer pemula yang ingin memahami Docker dari dasar",
@@ -72,8 +72,8 @@
       "Pengenalan Kubernetes Architecture untuk persiapan scale-up",
       "Materi CI/CD untuk alur kerja modern"
     ],
-    price: 120000, 
-    coverPath: "assets/images/books/docker-tutor/cover/1776051576496_1047407.webp", 
+    price: 120000,
+    coverPath: "assets/images/books/docker-tutor/cover/1776051576496_1047407.webp",
     sampleImages: ["assets/images/books/docker-tutor/sample/1776051576710_2061703.webp"],
     buyUrl: "https://lynk.id/digitalitlibrary/vpwov5drlq8v"
   },
@@ -93,7 +93,7 @@
       "Inovasi & Implementasi (Design thinking, hackathon & innovation labs, fintech ecosystem, blockages to innovation)",
       "Cybercrime & IT Resilience (Cyber risk management, fraud detection AI, anomaly detection, cyber law, safeguarding bank of the future)"
     ],
-    audienceLabel: "ðŸ”´ Professional | Expert", 
+    audienceLabel: "Professional | Expert",
     audience: [
       "Banking Executive & C-Suite yang memimpin transformasi digital",
       "Manajer & Analis di divisi Risk, Compliance, dan Finance",
@@ -109,8 +109,8 @@
       "Bagaimana blockchain dan open banking menciptakan ekosistem baru?",
       "Ancaman cyber apa yang mengintai bank dan bagaimana mengatasinya?"
     ],
-    price: 160000, 
-    coverPath: "assets/images/books/ai-and-future/cover/1776052489169_5509036.webp", 
+    price: 160000,
+    coverPath: "assets/images/books/ai-and-future/cover/1776052489169_5509036.webp",
     sampleImages: ["assets/images/books/ai-and-future/sample/1776052489391_8901064.webp"],
     buyUrl: "https://lynk.id/digitalitlibrary/mq96gxjpok1v"
   },
@@ -128,7 +128,7 @@
       "Web Scraping & Visualisasi Interaktif (BeautifulSoup, data parsing, web scraping, Plotly charts, statistical charts, Plotly maps)",
       "Proyek Data Science Nyata (20 Proyek Lengkap) â€” Healthcare & Medical, Computer Vision, NLP & Audio, Recommender & Business"
     ],
-    audienceLabel: "ðŸŸ¢ Beginner | Intermediate", 
+    audienceLabel: "Beginner | Intermediate",
     audience: [
       "Mahasiswa S1/S2 Informatika, Statistik, dan bidang terkait",
       "Fresh Graduate yang ingin membangun portofolio Data Science",
@@ -144,8 +144,8 @@
       "Library lengkap : NumPy, Pandas, SciPy, Scikit-learn, Plotly, NetworkX, BeautifulSoup",
       "Cocok sebagai referensi kerja sehari-hari maupun bahan belajar terstruktur"
     ],
-    price: 200000, 
-    coverPath: "assets/images/books/data-science-handbook/cover/1776053309561_8102898.webp", 
+    price: 200000,
+    coverPath: "assets/images/books/data-science-handbook/cover/1776053309561_8102898.webp",
     sampleImages: ["assets/images/books/data-science-handbook/sample/1776053309857_3768782.webp"],
     buyUrl: "https://lynk.id/digitalitlibrary/oy9w42q2m4j6"
   },
@@ -166,7 +166,7 @@
       "Route Redistribution & Advanced Routing (Route maps, prefix lists, mutual redistribution, route tags, PfR)",
       "Layer 3 Troubleshooting (Systematic L3 troubleshooting process, IP routing diagnosis)"
     ],
-    audienceLabel: "ðŸ”´ Expert",
+    audienceLabel: "Expert",
     audience: [
       "Kandidat ujian CCIE Routing & Switching v5.0 (Lab Exam)",
       "Senior Network Engineer & Network Architect",
@@ -203,7 +203,7 @@
       "Tunneling Technologies (GRE tunnels, DMVPN hub-and-spoke & spoke-to-spoke, L2TPv3, AToM, VPLS, GET VPN, NAT64)",
       "MPLS & MPLS VPN (MPLS forwarding, FIB & LFIB, LDP, MPLS VPN control & data plane, VRF, MP-BGP, route distinguisher)"
     ],
-    audienceLabel: "ðŸ”´ Expert",
+    audienceLabel: "Expert",
     audience: [
       "Kandidat ujian CCIE Routing & Switching v5.0 (Lab Exam)",
       "Senior Network / WAN Engineer & Network Architect",
@@ -244,7 +244,7 @@
       "Secure Network Access Control (Cisco ISE, 802.1X, TrustSec, MACsec, NGFW, Umbrella, Stealthwatch)",
       "Network Programmability (REST API, JSON & XML, YANG, NETCONF, RESTCONF, Python, Ansible)"
     ],
-    audienceLabel: "ðŸ”µ Professional | Expert",
+    audienceLabel: "Professional | Expert",
     audience: [
       "Kandidat ujian CCNP Enterprise (ujian core ENCOR 350-401)",
       "Kandidat CCIE Enterprise Infrastructure & CCIE Enterprise Wireless",
@@ -281,7 +281,7 @@
       "Content Security (Cisco Secure Web Appliance, WCCP, Cisco Secure Email/ESA, DLP, DKIM)",
       "Endpoint Protection & Detection (EDR, Cisco Secure Endpoint/AMP, outbreak control, Cisco Threat Response)"
     ],
-    audienceLabel: "ðŸ”´ Professional | Expert",
+    audienceLabel: "Professional | Expert",
     audience: [
       "Kandidat ujian CCNP Security (ujian core SCOR 350-701)",
       "Kandidat CCIE Security (qualifying exam)",
@@ -322,7 +322,7 @@
       "Infrastructure Security (AAA troubleshooting, uRPF, CoPP, IPv6 First-Hop Security: RA Guard, DHCPv6 Guard)",
       "Device Management & Troubleshooting Tools (SNMP, IP SLA, NetFlow, BFD, Cisco DNA Center Assurance)"
     ],
-    audienceLabel: "ðŸ”µ Professional",
+    audienceLabel: "Professional",
     audience: [
       "Kandidat ujian CCNP Enterprise concentration ENARSI 300-410",
       "Network Engineer yang menangani routing & WAN tingkat lanjut",
@@ -360,7 +360,7 @@
       "SD-WAN Design (vManage, vSmart, vBond, OMP, ZTP onboarding, application-aware routing, QoS, VPN segmentation)",
       "Network Automation & Programmability (REST API, YANG, NETCONF, RESTCONF, model-driven telemetry)"
     ],
-    audienceLabel: "ðŸ”µ Professional | Expert",
+    audienceLabel: "Professional | Expert",
     audience: [
       "Kandidat ujian CCNP Enterprise concentration ENSLD 300-420",
       "Network Architect & Network Designer di lingkungan enterprise",
@@ -395,7 +395,7 @@
       "Service Management Practices â€” 17 Praktik (Availability management, change control, incident management, problem management, service desk, service level management, dll.)",
       "Technical Management Practices â€” 3 Praktik (Deployment management, infrastructure & platform management, software development & management)"
     ],
-    audienceLabel: "ðŸŸ¢ Beginner | Intermediate",
+    audienceLabel: "Beginner | Intermediate",
     audience: [
       "Kandidat ujian sertifikasi ITIL 4 Foundation",
       "IT Manager & Service Delivery Manager yang ingin memahami framework modern",
@@ -434,7 +434,7 @@
       "ChatGPT Super Prompt Templates (Ready-to-use prompts untuk smart contract development, security audit, tokenomics design, whitepaper drafting)",
       "Interview Questions & Quiz (180+ interview questions untuk blockchain engineer roles, quiz & answer key)"
     ],
-    audienceLabel: "ðŸ”µ Intermediate | Professional",
+    audienceLabel: "Intermediate | Professional",
     audience: [
       "Blockchain Engineer & Smart Contract Developer",
       "Web3 Developer yang ingin memahami infrastruktur blockchain secara mendalam",
@@ -476,7 +476,7 @@
       "Security Governance & Compliance (Governance framework, AUP/SOP/BCP, NIST/ISO 27001/CIS, security awareness & training)",
       "Risk Management & Privacy (Qualitative & quantitative risk analysis, risk register, GDPR, PII/PHI, privacy impact assessment)"
     ],
-    audienceLabel: "ðŸŸ¢ Beginner | Intermediate",
+    audienceLabel: "Beginner | Intermediate",
     audience: [
       "Kandidat ujian CompTIA Security+ SY0-701",
       "IT Professional yang baru masuk ke bidang cybersecurity",
@@ -485,7 +485,7 @@
       "System Administrator yang ingin memvalidasi pengetahuan security-nya",
       "Profesional non-IT yang berpindah karir ke bidang cybersecurity"
     ],
-    reviewInfo: "Official Study Guide dari Sybex/Wiley untuk ujian CompTIA Security+ SY0-701 â€” sertifikasi keamanan IT paling laris di dunia yang diakui oleh ratusan ribu perusahaan dan diwajibkan oleh Departemen Pertahanan AS (DoD Directive 8570). Mencakup seluruh 5 domain ujian SY0-701 secara komprehensif dengan pendekatan yang ramah pemula namun tetap mendalam. Catatan: Disarankan memiliki pemahaman dasar networking setara CompTIA Network+ atau pengalaman kerja IT minimal 2 tahun.",
+    reviewInfo: "Official Study Guide dari Sybex/Wiley untuk ujian CompTIA Security+ SY0-701 sertifikasi keamanan IT paling laris di dunia yang diakui oleh ratusan ribu perusahaan dan diwajibkan oleh Departemen Pertahanan AS (DoD Directive 8570). Mencakup seluruh 5 domain ujian SY0-701 secara komprehensif dengan pendekatan yang ramah pemula namun tetap mendalam. Catatan: Disarankan memiliki pemahaman dasar networking setara CompTIA Network+ atau pengalaman kerja IT minimal 2 tahun.",
     whyBuy: [
       "Assessment Test di awal buku untuk mengukur kesiapan awal",
       "Exam Essentials di akhir setiap chapter untuk review cepat",
