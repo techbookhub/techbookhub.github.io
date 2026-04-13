@@ -161,7 +161,7 @@
       "IP Forwarding & CEF (Process switching, fast switching, CEF, load sharing, Multilayer Switching, policy routing)",
       "RIPv2 & RIPng (Distance-vector basics, loop prevention, triggered updates, authentication, RIPng IPv6)",
       "EIGRP (Classic & wide metrics, DUAL FSM, Named Mode, stub routing, unequal-cost load balancing, authentication)",
-      "OSPF (v2 & v3) (LSA types 1â€“5, DR/BDR, NBMA, stubby areas, virtual links, OSPFv3, graceful restart)",
+      "OSPF (v2 & v3) (LSA types 1-5, DR/BDR, NBMA, stubby areas, virtual links, OSPFv3, graceful restart)",
       "IS-IS (OSI addressing, Level 1 & 2 routing, LSP & CSNP/PSNP, area design, authentication, IPv6)",
       "Route Redistribution & Advanced Routing (Route maps, prefix lists, mutual redistribution, route tags, PfR)",
       "Layer 3 Troubleshooting (Systematic L3 troubleshooting process, IP routing diagnosis)"
@@ -174,7 +174,7 @@
       "Network Consultant di lingkungan enterprise & service provider",
       "NOC/SOC Engineer yang menangani infrastruktur Cisco skala besar"
     ],
-    reviewInfo: "Official Certification Guide resmi dari Cisco Press untuk ujian paling bergengsi di dunia jaringan  CCIE Routing & Switching v5.0. Volume 1 ini mencakup fondasi terdalam LAN switching dan IP routing, dengan kedalaman teknis yang jauh melampaui level CCNP. Catatan: Buku ini diasumsikan pembaca sudah menguasai materi setara CCNP. Disarankan memiliki pengalaman kerja minimal 3â€“5 tahun di bidang networking.",
+    reviewInfo: "Official Certification Guide resmi dari Cisco Press untuk ujian paling bergengsi di dunia jaringan  CCIE Routing & Switching v5.0. Volume 1 ini mencakup fondasi terdalam LAN switching dan IP routing, dengan kedalaman teknis yang jauh melampaui level CCNP. Catatan: Buku ini diasumsikan pembaca sudah menguasai materi setara CCNP. Disarankan memiliki pengalaman kerja minimal 3-5 tahun di bidang networking.",
     whyBuy: [
       "\"Do I Know This Already?\" Quiz di awal setiap chapter",
       "Foundation Summary & Memory Builders di akhir chapter",
@@ -233,7 +233,7 @@
       "Advanced STP & MST (Root Guard, PortFast, BPDU Guard & Filter, Loop Guard, UDLD, MST/802.1s)",
       "VLAN Trunking, VTP & EtherChannel (DTP, EtherChannel/LACP/PAgP, load balancing)",
       "EIGRP (Autonomous systems, topology table, DUAL, wide metrics, load balancing, route summarization)",
-      "OSPF & OSPFv3 (DR/BDR, LSA types 1â€“3, inter-area summarization, route filtering, OSPFv3 IPv4/IPv6)",
+      "OSPF & OSPFv3 (DR/BDR, LSA types 1-3, inter-area summarization, route filtering, OSPFv3 IPv4/IPv6)",
       "BGP & Advanced BGP (iBGP/eBGP, path attributes, communities, BGP best path 12 langkah, multihoming)",
       "IP Multicast (IGMP v2/v3, IGMP snooping, PIM-DM & PIM-SM, RPF check, Auto-RP, BSR)",
       "QoS (Classification & marking, DSCP/AF/EF PHB, policing & shaping, CBWFQ, LLQ, WRED)",
@@ -252,7 +252,7 @@
       "Network Architect yang membutuhkan referensi modern enterprise networking",
       "Engineer yang ingin memahami SD-Access, SD-WAN, dan network automation"
     ],
-    reviewInfo: "Official Certification Guide dari Cisco Press untuk ujian core ENCOR 350-401  satu-satunya ujian yang menjadi syarat wajib untuk semua jalur CCNP Enterprise maupun pintu masuk CCIE Enterprise. Mencakup seluruh domain: routing & switching klasik, wireless, overlay network, keamanan, SD-Access & SD-WAN, hingga programmability dan otomasi jaringan. Catatan: Diasumsikan pembaca sudah menguasai materi setara CCNA. Disarankan memiliki pengalaman kerja minimal 2â€“3 tahun di bidang networking.",
+    reviewInfo: "Official Certification Guide dari Cisco Press untuk ujian core ENCOR 350-401  satu-satunya ujian yang menjadi syarat wajib untuk semua jalur CCNP Enterprise maupun pintu masuk CCIE Enterprise. Mencakup seluruh domain: routing & switching klasik, wireless, overlay network, keamanan, SD-Access & SD-WAN, hingga programmability dan otomasi jaringan. Catatan: Diasumsikan pembaca sudah menguasai materi setara CCNA. Disarankan memiliki pengalaman kerja minimal 2-3 tahun di bidang networking.",
     whyBuy: [
       "\"Do I Know This Already?\" Quiz di awal setiap chapter",
       "Exam Preparation Tasks & Foundation Summary per chapter",
@@ -289,7 +289,7 @@
       "SOC Analyst & Security Architect di lingkungan enterprise",
       "Engineer yang ingin menguasai ekosistem Cisco Security end-to-end"
     ],
-    reviewInfo: "Official Certification Guide edisi ke-2 dari Cisco Press untuk ujian core SCOR 350-701  membuka jalur CCNP Security sekaligus menjadi qualifying exam untuk CCIE Security. Edisi terbaru mencakup Cisco XDR, Cisco Secure Firewall generasi terbaru, cloud security modern, serta DevSecOps dan container security. Catatan: Diperlukan pemahaman dasar networking setara CCNA Security atau pengalaman kerja minimal 1â€“2 tahun di bidang keamanan jaringan.",
+    reviewInfo: "Official Certification Guide edisi ke-2 dari Cisco Press untuk ujian core SCOR 350-701  membuka jalur CCNP Security sekaligus menjadi qualifying exam untuk CCIE Security. Edisi terbaru mencakup Cisco XDR, Cisco Secure Firewall generasi terbaru, cloud security modern, serta DevSecOps dan container security. Catatan: Diperlukan pemahaman dasar networking setara CCNA Security atau pengalaman kerja minimal 1-2 tahun di bidang keamanan jaringan.",
     whyBuy: [
       "\"Do I Know This Already?\" Quiz di awal setiap chapter",
       "Review Questions + Define Key Terms per chapter",
@@ -309,7 +309,7 @@
       "IPv4/IPv6 Addressing & Routing Review (DHCP troubleshooting, IPv6 SLAAC/DHCPv6, static routes IPv4 & IPv6)",
       "EIGRP & Advanced EIGRP (Classic & named mode, neighbor adjacencies, authentication, summarization, route filtering)",
       "Troubleshooting EIGRP IPv4 & IPv6 (Neighbor adjacency failures, autosummarization, EIGRPv6  + 5 Trouble Tickets)",
-      "OSPF & Advanced OSPF (DR/BDR, LSA types 1â€“7, stubby areas, NSSA, virtual links, path selection)",
+      "OSPF & Advanced OSPF (DR/BDR, LSA types 1-7, stubby areas, NSSA, virtual links, path selection)",
       "Troubleshooting OSPFv2 & OSPFv3 (Neighbor failures, MTU mismatch, OSPFv3 address families  + 6 Trouble Tickets)",
       "BGP & Advanced BGP (iBGP/eBGP, route reflectors, confederations, communities, MP-BGP IPv6)",
       "BGP Path Selection (12 langkah: Weight â†’ Local Pref â†’ AIGP â†’ AS_PATH â†’ Origin â†’ MED â†’ eBGP over iBGP)",

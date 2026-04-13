@@ -258,3 +258,20 @@ footer { background: var(--bg-darker); border-top: 1px solid var(--glass-border)
 .zoom-close:hover {
     color: var(--primary-light);
 }
+
+/* Toast Notification */
+.toast {
+  visibility: hidden; min-width: 250px; background-color: var(--primary);
+  color: #fff; text-align: center; border-radius: 8px; padding: 16px;
+  position: fixed; z-index: 10001; right: 30px; bottom: 30px; font-weight: 600;
+  opacity: 0; transition: opacity 0.5s, visibility 0.5s, transform 0.5s;
+  transform: translateY(20px); box-shadow: 0 10px 25px rgba(168, 85, 247, 0.4);
+}
+.toast.show {
+  visibility: visible; opacity: 1; transform: translateY(0);
+}
+
+.btn-share:hover {
+  background: rgba(168, 85, 247, 0.1) !important;
+  color: white !important;
+}

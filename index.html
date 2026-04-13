@@ -191,12 +191,16 @@
                     <!-- Injected via JS -->
                 </ul>
                 
-                <div style="margin-top:2rem; text-align:right;">
-                    <a href="#" target="_blank" class="btn" id="m-buy-btn" style="width:100%; text-align:center;">Beli Sekarang</a>
+                <div style="margin-top:2rem; display: flex; gap: 1rem;">
+                    <button class="btn btn-share" id="m-share-btn" style="width: 30%; background: transparent; border: 1px solid var(--primary-light); color: var(--primary-light);">Bagikan</button>
+                    <a href="#" target="_blank" class="btn" id="m-buy-btn" style="width:70%; text-align:center;">Beli Sekarang</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">✅ Link berhasil disalin!</div>
 
     <!-- Image Zoom Modal -->
     <div class="zoom-modal-overlay" id="zoomModal">
