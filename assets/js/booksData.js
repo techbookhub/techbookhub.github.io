@@ -380,5 +380,122 @@ const booksData = [
     coverPath: "assets/images/books/cisco-ensld/cover/1776064046901_6031350.webp",
     sampleImages: ["assets/images/books/cisco-ensld/sample/1776064047185_3451827.webp"],
     buyUrl: "https://lynk.id/digitalitlibrary/oqd426re5v4k"
+  },
+  {
+    id: "live11", title: "ITIL 4 Foundation Official Study Guide", category: "Security & Assurance", cover: "", isFeatured: false,
+    fileType: "PDF", size: "3.18 MB", pages: 260, language: "English",
+    topics: [
+      "Key Concepts of Service Management (Value & value co-creation, service providers & consumers, products & services, outcomes, costs, risks, utility & warranty)",
+      "The Four Dimensions of Service Management (Organizations & people, information & technology, partners & suppliers, value streams & processes, PESTLE)",
+      "The ITIL Service Value System / SVS (SVS overview, opportunity & demand, value output, governance in SVS)",
+      "The 7 ITIL Guiding Principles (Focus on value, start where you are, progress iteratively with feedback, collaborate, think holistically, keep it simple, optimize and automate)",
+      "Service Value Chain / SVC (Plan, Improve, Engage, Design & Transition, Obtain/Build, Deliver & Support — 6 aktivitas inti value stream)",
+      "Continual Improvement (7 langkah continual improvement model, kaitan dengan guiding principles & semua praktik ITIL)",
+      "General Management Practices — 14 Praktik (Architecture management, continual improvement, information security management, knowledge management, project management, risk management, dll.)",
+      "Service Management Practices — 17 Praktik (Availability management, change control, incident management, problem management, service desk, service level management, dll.)",
+      "Technical Management Practices — 3 Praktik (Deployment management, infrastructure & platform management, software development & management)"
+    ],
+    audienceLabel: "🟢 Beginner | Intermediate",
+    audience: [
+      "Kandidat ujian sertifikasi ITIL 4 Foundation",
+      "IT Manager & Service Delivery Manager yang ingin memahami framework modern",
+      "IT Support & Helpdesk yang ingin naik ke level Service Management",
+      "Project Manager & Business Analyst di lingkungan IT",
+      "DevOps & Agile practitioner yang ingin memahami konteks ITSM",
+      "Profesional non-IT (HR, Finance, Operations) yang bekerja di organisasi berbasis ITIL"
+    ],
+    reviewInfo: "Publikasi resmi ITIL 4 Foundation dari AXELOS — badan standar IT Service Management global yang dipercaya oleh jutaan profesional di lebih dari 180 negara. ITIL 4 mengintegrasikan pendekatan Agile, DevOps, dan Lean ke dalam framework manajemen layanan IT modern, dengan fokus pada value co-creation dan 34 praktik manajemen yang fleksibel. Catatan: Tidak diperlukan pengalaman IT sebelumnya. Buku ini adalah publikasi resmi dari AXELOS — cocok sebagai referensi ujian sekaligus panduan implementasi ITIL 4 di organisasi.",
+    whyBuy: [
+      "Penjelasan resmi semua konsep & terminologi ITIL 4",
+      "Deskripsi lengkap 34 praktik manajemen",
+      "Model Four Dimensions & Service Value Chain",
+      "7 Guiding Principles sebagai panduan keputusan universal",
+      "Referensi standar untuk persiapan ujian ITIL 4 Foundation"
+    ],
+    price: 999999,
+    coverPath: "assets/images/books/itil-foundation/cover/1775983771416_9879946.webp",
+    sampleImages: ["assets/images/books/itil-foundation/sample/1775983771710_5469076.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/783lolkoo6op"
+  },
+  {
+    id: "live12", title: "Blockchain Engineering Playbook 2024", category: "Programming & Development", cover: "", isFeatured: false,
+    fileType: "PDF", size: "4.02 MB", pages: 203, language: "English",
+    topics: [
+      "Blockchain Fundamentals (Nodes, mining, types: public/private/consortium, consensus: PoW/PoS/DPoS/BFT, forks, blockchain bridges, merged mining)",
+      "Blockchain Addressing, Wallets & Record-keeping (Wallet types: hot/cold/custodial, UTXO vs account-based, asset tokenization: fungible & non-fungible tokens)",
+      "Smart Contracts & Use Cases (Smart contract fundamentals, deployment lifecycle, DeFi, supply chain, identity, real estate, healthcare, voting)",
+      "Blockchain APIs (API integration patterns, on-chain & off-chain data access, interacting with nodes via RPC & REST)",
+      "Network Security & Privacy (51% attack, Sybil, eclipse, double-spend, ZKP, mixing, confidential transactions)",
+      "Node Maintenance & Optimization (Data storage & management, performance tuning, backup & disaster recovery)",
+      "Platform Deep-Dive — Bitcoin (UTXO model, mining, SegWit, Lightning Network, Bitcoin scripting)",
+      "Platform Deep-Dive — Ethereum (EVM, account model, gas & fee mechanism, Solidity, PoS post-Merge, Layer 2 overview)",
+      "Platform Deep-Dive — Hyperledger (Fabric: peers, orderers, channels, chaincode, permissioned blockchain, enterprise deployment)",
+      "Blockchain & Web3 Tech Stack (Web3.js/Ethers.js, wallet integration, nodes, indexers, IPFS, oracles/Chainlink, full Web3 stack)",
+      "ChatGPT Super Prompt Templates (Ready-to-use prompts untuk smart contract development, security audit, tokenomics design, whitepaper drafting)",
+      "Interview Questions & Quiz (180+ interview questions untuk blockchain engineer roles, quiz & answer key)"
+    ],
+    audienceLabel: "🔵 Intermediate | Professional",
+    audience: [
+      "Blockchain Engineer & Smart Contract Developer",
+      "Web3 Developer yang ingin memahami infrastruktur blockchain secara mendalam",
+      "Backend / Full-Stack Developer yang beralih ke Web3",
+      "DevOps / Infrastructure Engineer yang mengelola blockchain nodes",
+      "Tech Lead & Solutions Architect yang merancang sistem berbasis blockchain",
+      "Kandidat interview posisi Blockchain Engineer di startup Web3 & enterprise"
+    ],
+    reviewInfo: "Playbook engineering blockchain paling praktis dan terkini untuk tahun 2024, mencakup seluruh spektrum: dari fondasi konseptual, keamanan node, hingga implementasi nyata di Bitcoin, Ethereum, Hyperledger, Multichain, dan HYFI. Edisi 2024 mencakup perkembangan terbaru: post-Merge Ethereum, L2, ZKP, dan dilengkapi ChatGPT Super Prompt Templates siap pakai serta 180+ Interview Questions. Catatan: Pemahaman dasar pemrograman (Python/JavaScript/Solidity) sangat dianjurkan. Konsep teknis dijelaskan dari dasar.",
+    whyBuy: [
+      "Edisi 2024 — mencakup post-Merge Ethereum, Layer 2, dan ZKP terbaru",
+      "Mencakup 5 platform blockchain sekaligus dalam satu buku",
+      "ChatGPT Super Prompt Templates siap pakai untuk produktivitas engineer",
+      "180+ Interview Questions & Quiz untuk persiapan karir Blockchain Engineer",
+      "Pendekatan engineering playbook — panduan tindakan nyata, bukan teori semata"
+    ],
+    price: 999999,
+    coverPath: "assets/images/books/blockchain-engineering/cover/1776068242849_8693863.webp",
+    sampleImages: ["assets/images/books/blockchain-engineering/sample/1776068243119_5386512.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/mkjqdy9re323"
+  },
+  {
+    id: "live13", title: "CompTIA Security+ Study Guide — Exam SY0-701", category: "Security & Assurance", cover: "", isFeatured: false,
+    fileType: "PDF", size: "9.32 MB", pages: 993, language: "English",
+    topics: [
+      "Security Professional & Data Protection (CIA Triad, security controls framework, data classification & protection strategies)",
+      "Threat Landscape & Malicious Code (Threat actors, malware types: virus/worm/trojan/ransomware, social engineering: phishing/vishing/pretexting, password attacks)",
+      "Security Assessment & Testing (Vulnerability management lifecycle, CVSS scoring, penetration testing: black/white/gray box, vulnerability scanning tools)",
+      "Application Security (Secure SDLC, injection vulnerabilities: SQL/command/LDAP, XSS, CSRF, application security controls)",
+      "Kriptografi & PKI (Symmetric & asymmetric cryptography, digital signatures, certificate management, quantum-safe crypto)",
+      "Identity & Access Management (MFA, biometrics, SSO, federation, OAuth, SAML, access control: MAC/DAC/RBAC/ABAC, privilege management)",
+      "Resilience & Physical Security (HA & redundancy, RAID, replication, physical security: badges, locks, surveillance, environmental controls)",
+      "Cloud & Virtualization Security (Cloud models IaaS/PaaS/SaaS, container security, cloud hardening, shared responsibility model)",
+      "Endpoint Security (OS vulnerabilities, firmware attacks, AV/EDR/HIDS, OS hardening, embedded & specialized systems)",
+      "Network Security (Segmentation, DMZ, zero trust, secure protocols: TLS/SSH/SFTP/DNSSEC, DoS/DDoS, ARP spoofing, MITM)",
+      "Wireless & Mobile Security (WPA2/WPA3, EAP, rogue AP, evil twin, MDM, MAM, BYOD security controls)",
+      "Monitoring & Incident Response (IR lifecycle: preparation/detection/containment/eradication/recovery, SIEM, logs, NetFlow, playbooks)",
+      "Digital Forensics (Chain of custody, order of volatility, disk & memory forensics, network forensics, OSINT, CTI)",
+      "Security Governance & Compliance (Governance framework, AUP/SOP/BCP, NIST/ISO 27001/CIS, security awareness & training)",
+      "Risk Management & Privacy (Qualitative & quantitative risk analysis, risk register, GDPR, PII/PHI, privacy impact assessment)"
+    ],
+    audienceLabel: "🟢 Beginner | Intermediate",
+    audience: [
+      "Kandidat ujian CompTIA Security+ SY0-701",
+      "IT Professional yang baru masuk ke bidang cybersecurity",
+      "Network Administrator & Helpdesk yang ingin transisi ke security",
+      "Fresh Graduate IT yang ingin sertifikasi keamanan pertama mereka",
+      "System Administrator yang ingin memvalidasi pengetahuan security-nya",
+      "Profesional non-IT yang berpindah karir ke bidang cybersecurity"
+    ],
+    reviewInfo: "Official Study Guide dari Sybex/Wiley untuk ujian CompTIA Security+ SY0-701 — sertifikasi keamanan IT paling laris di dunia yang diakui oleh ratusan ribu perusahaan dan diwajibkan oleh Departemen Pertahanan AS (DoD Directive 8570). Mencakup seluruh 5 domain ujian SY0-701 secara komprehensif dengan pendekatan yang ramah pemula namun tetap mendalam. Catatan: Disarankan memiliki pemahaman dasar networking setara CompTIA Network+ atau pengalaman kerja IT minimal 2 tahun.",
+    whyBuy: [
+      "Assessment Test di awal buku untuk mengukur kesiapan awal",
+      "Exam Essentials di akhir setiap chapter untuk review cepat",
+      "Review Questions per chapter + Kunci Jawaban lengkap di Appendix",
+      "Full coverage semua domain & objective blueprint SY0-701",
+      "Practical examples & scenario-based questions sesuai format ujian"
+    ],
+    price: 999999,
+    coverPath: "assets/images/books/security+/cover/1776068759289_6839439.webp",
+    sampleImages: ["assets/images/books/security+/sample/1776068759509_1747589.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/1dkqrzo2r5rq"
   }
 ];
