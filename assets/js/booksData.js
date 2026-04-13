@@ -64,7 +64,7 @@
       "Mahasiswa IT & CS yang mempelajari modern deployment workflow",
       "Sysadmin yang ingin beralih ke ekosistem container"
     ],
-    reviewInfo: "Panduan praktis Docker untuk pemula yang membawa pembaca dari nol hingga mampu mem-build, ship, dan run aplikasi menggunakan container. Buku ini mencakup seluruh lifecycle Docker â€” mulai instalasi, manajemen images & containers, networking, storage, hingga orkestrasi dasar dengan Kubernetes dan integrasi CI/CD. Catatan : Tidak diperlukan pengalaman sebelumnya dengan Docker. Pemahaman dasar Linux & command line akan sangat membantu.",
+    reviewInfo: "Panduan praktis Docker untuk pemula yang membawa pembaca dari nol hingga mampu mem-build, ship, dan run aplikasi menggunakan container. Buku ini mencakup seluruh lifecycle Docker mulai instalasi, manajemen images & containers, networking, storage, hingga orkestrasi dasar dengan Kubernetes dan integrasi CI/CD. Catatan : Tidak diperlukan pengalaman sebelumnya dengan Docker. Pemahaman dasar Linux & command line akan sangat membantu.",
     whyBuy: [
       "Penjelasan step-by-step setiap konsep Docker",
       "Contoh konfigurasi Node.js, MongoDB, NGINX, dan ASP.Net",
@@ -101,7 +101,7 @@
       "Konsultan Manajemen & Strategi di sektor keuangan",
       "Akademisi, Peneliti, dan Mahasiswa S2/S3 bidang Finance & AI"
     ],
-    reviewInfo: "Karya Tony Boobier, pakar AI & analytics industri keuangan global, yang membahas secara menyeluruh bagaimana kecerdasan buatan akan mendefinisikan ulang wajah perbankan â€” dari strategi korporat, pengalaman nasabah, hingga masa depan pekerjaan di sektor ini. Catatan : Buku ini bersifat strategis dan konseptual â€” bukan panduan teknis coding. Cocok dibaca oleh praktisi bisnis maupun teknologi di industri perbankan.",
+    reviewInfo: "Karya Tony Boobier, pakar AI & analytics industri keuangan global, yang membahas secara menyeluruh bagaimana kecerdasan buatan akan mendefinisikan ulang wajah perbankan  dari strategi korporat, pengalaman nasabah, hingga masa depan pekerjaan di sektor ini. Catatan : Buku ini bersifat strategis dan konseptual  bukan panduan teknis coding. Cocok dibaca oleh praktisi bisnis maupun teknologi di industri perbankan.",
     whyBuy: [
       "Bagaimana AI mengubah model bisnis bank secara fundamental?",
       "Seperti apa bank yang akan bertahan di era digital?",
@@ -126,7 +126,7 @@
       "Network Analysis (Graph objects dengan NetworkX, directed network analysis, simulasi & analisis social network)",
       "Algoritma Prediktif (Linear regression, logistic regression, Naive Bayes, Random Forest & ensemble models)",
       "Web Scraping & Visualisasi Interaktif (BeautifulSoup, data parsing, web scraping, Plotly charts, statistical charts, Plotly maps)",
-      "Proyek Data Science Nyata (20 Proyek Lengkap) â€” Healthcare & Medical, Computer Vision, NLP & Audio, Recommender & Business"
+      "Proyek Data Science Nyata (20 Proyek Lengkap)  Healthcare & Medical, Computer Vision, NLP & Audio, Recommender & Business"
     ],
     audienceLabel: "Beginner | Intermediate",
     audience: [
@@ -136,7 +136,7 @@
       "Peneliti yang membutuhkan panduan praktis analisis data",
       "Profesional non-teknis yang ingin memahami workflow Data Science"
     ],
-    reviewInfo: "Handbook komprehensif yang memadukan teori dan praktik Data Science dalam satu buku â€” mulai dari preprocessing data mentah, visualisasi, machine learning, hingga 20 proyek nyata siap portofolio. Catatan : Pemahaman dasar Python sangat dianjurkan sebelum membaca buku ini. Tidak diperlukan background matematika tingkat lanjut â€” semua konsep dijelaskan dari dasar.",
+    reviewInfo: "Handbook komprehensif yang memadukan teori dan praktik Data Science dalam satu buku  mulai dari preprocessing data mentah, visualisasi, machine learning, hingga 20 proyek nyata siap portofolio. Catatan : Pemahaman dasar Python sangat dianjurkan sebelum membaca buku ini. Tidak diperlukan background matematika tingkat lanjut  semua konsep dijelaskan dari dasar.",
     whyBuy: [
       "Pendekatan hands-on dengan kode Python di setiap chapter",
       "20 proyek real-world dari domain medis, computer vision, NLP, hingga bisnis",
@@ -161,7 +161,7 @@
       "IP Forwarding & CEF (Process switching, fast switching, CEF, load sharing, Multilayer Switching, policy routing)",
       "RIPv2 & RIPng (Distance-vector basics, loop prevention, triggered updates, authentication, RIPng IPv6)",
       "EIGRP (Classic & wide metrics, DUAL FSM, Named Mode, stub routing, unequal-cost load balancing, authentication)",
-      "OSPF (v2 & v3) (LSA types 1â€“5, DR/BDR, NBMA, stubby areas, virtual links, OSPFv3, graceful restart)",
+      "OSPF (v2 & v3) (LSA types 1-5, DR/BDR, NBMA, stubby areas, virtual links, OSPFv3, graceful restart)",
       "IS-IS (OSI addressing, Level 1 & 2 routing, LSP & CSNP/PSNP, area design, authentication, IPv6)",
       "Route Redistribution & Advanced Routing (Route maps, prefix lists, mutual redistribution, route tags, PfR)",
       "Layer 3 Troubleshooting (Systematic L3 troubleshooting process, IP routing diagnosis)"
@@ -174,7 +174,7 @@
       "Network Consultant di lingkungan enterprise & service provider",
       "NOC/SOC Engineer yang menangani infrastruktur Cisco skala besar"
     ],
-    reviewInfo: "Official Certification Guide resmi dari Cisco Press untuk ujian paling bergengsi di dunia jaringan â€” CCIE Routing & Switching v5.0. Volume 1 ini mencakup fondasi terdalam LAN switching dan IP routing, dengan kedalaman teknis yang jauh melampaui level CCNP. Catatan: Buku ini diasumsikan pembaca sudah menguasai materi setara CCNP. Disarankan memiliki pengalaman kerja minimal 3â€“5 tahun di bidang networking.",
+    reviewInfo: "Official Certification Guide resmi dari Cisco Press untuk ujian paling bergengsi di dunia jaringan  CCIE Routing & Switching v5.0. Volume 1 ini mencakup fondasi terdalam LAN switching dan IP routing, dengan kedalaman teknis yang jauh melampaui level CCNP. Catatan: Buku ini diasumsikan pembaca sudah menguasai materi setara CCNP. Disarankan memiliki pengalaman kerja minimal 3-5 tahun di bidang networking.",
     whyBuy: [
       "\"Do I Know This Already?\" Quiz di awal setiap chapter",
       "Foundation Summary & Memory Builders di akhir chapter",
@@ -193,12 +193,12 @@
     topics: [
       "BGP Fundamentals (iBGP & eBGP neighbor relationships, BGP messages & states, route injection, route reflectors, MP-BGP)",
       "BGP Routing Policies & Path Selection (NLRI filtering, BGP decision process 11 langkah, Weight, LOCAL_PREF, MED, communities)",
-      "QoS â€” Classification & Marking (IP Precedence, DSCP, AF/EF/CS PHB, MQC framework, NBAR, CB Marking, AutoQoS)",
-      "QoS â€” Congestion Management & Avoidance (CBWFQ, LLQ, WRED, MDRR, LAN switch queuing)",
-      "QoS â€” Shaping, Policing & LFI (GTS, CB Shaping, CB Policing single/dual-rate, CAR, HQF)",
+      "QoS  Classification & Marking (IP Precedence, DSCP, AF/EF/CS PHB, MQC framework, NBAR, CB Marking, AutoQoS)",
+      "QoS  Congestion Management & Avoidance (CBWFQ, LLQ, WRED, MDRR, LAN switch queuing)",
+      "QoS  Shaping, Policing & LFI (GTS, CB Shaping, CB Policing single/dual-rate, CAR, HQF)",
       "Wide-Area Networks (HDLC, PPP & LCP, Multilink PPP, LFI, PPPoE, Metro-Ethernet, VPLS)",
-      "IP Multicast â€” Fundamentals (IGMP v1/v2/v3, CGMP, IGMP snooping, RGMP, IGMP filtering & proxy)",
-      "IP Multicast â€” Routing (PIM-DM, PIM-SM, Auto-RP, BSR, Anycast RP, MSDP, SSM, IPv6 multicast)",
+      "IP Multicast  Fundamentals (IGMP v1/v2/v3, CGMP, IGMP snooping, RGMP, IGMP filtering & proxy)",
+      "IP Multicast  Routing (PIM-DM, PIM-SM, Auto-RP, BSR, Anycast RP, MSDP, SSM, IPv6 multicast)",
       "Device & Network Security (AAA, port security, DAI, DHCP snooping, 802.1X/EAP, Zone-Based Firewall, DMVPN)",
       "Tunneling Technologies (GRE tunnels, DMVPN hub-and-spoke & spoke-to-spoke, L2TPv3, AToM, VPLS, GET VPN, NAT64)",
       "MPLS & MPLS VPN (MPLS forwarding, FIB & LFIB, LDP, MPLS VPN control & data plane, VRF, MP-BGP, route distinguisher)"
@@ -211,7 +211,7 @@
       "Network Engineer yang menangani BGP, MPLS, atau QoS di ISP / enterprise",
       "Network Consultant yang membutuhkan referensi mendalam topik advanced"
     ],
-    reviewInfo: "Official Certification Guide Volume 2 dari Cisco Press untuk CCIE R&S v5.0 â€” melengkapi Volume 1 dengan topik-topik advanced yang menjadi pembeda antara engineer biasa dan kandidat CCIE: BGP end-to-end, QoS enterprise, IP Multicast, keamanan jaringan, tunneling, dan MPLS VPN. Catatan: Volume 2 adalah kelanjutan langsung dari Volume 1. Sangat disarankan membaca keduanya untuk persiapan CCIE Lab Exam yang komprehensif.",
+    reviewInfo: "Official Certification Guide Volume 2 dari Cisco Press untuk CCIE R&S v5.0  melengkapi Volume 1 dengan topik-topik advanced yang menjadi pembeda antara engineer biasa dan kandidat CCIE: BGP end-to-end, QoS enterprise, IP Multicast, keamanan jaringan, tunneling, dan MPLS VPN. Catatan: Volume 2 adalah kelanjutan langsung dari Volume 1. Sangat disarankan membaca keduanya untuk persiapan CCIE Lab Exam yang komprehensif.",
     whyBuy: [
       "\"Do I Know This Already?\" Quiz di awal setiap chapter",
       "Foundation Summary & Memory Builders di akhir chapter",
@@ -233,12 +233,12 @@
       "Advanced STP & MST (Root Guard, PortFast, BPDU Guard & Filter, Loop Guard, UDLD, MST/802.1s)",
       "VLAN Trunking, VTP & EtherChannel (DTP, EtherChannel/LACP/PAgP, load balancing)",
       "EIGRP (Autonomous systems, topology table, DUAL, wide metrics, load balancing, route summarization)",
-      "OSPF & OSPFv3 (DR/BDR, LSA types 1â€“3, inter-area summarization, route filtering, OSPFv3 IPv4/IPv6)",
+      "OSPF & OSPFv3 (DR/BDR, LSA types 1-3, inter-area summarization, route filtering, OSPFv3 IPv4/IPv6)",
       "BGP & Advanced BGP (iBGP/eBGP, path attributes, communities, BGP best path 12 langkah, multihoming)",
       "IP Multicast (IGMP v2/v3, IGMP snooping, PIM-DM & PIM-SM, RPF check, Auto-RP, BSR)",
       "QoS (Classification & marking, DSCP/AF/EF PHB, policing & shaping, CBWFQ, LLQ, WRED)",
       "Overlay & Tunneling (GRE, IPsec IKEv1/IKEv2, site-to-site VPN, DMVPN, FlexVPN, LISP, VXLAN)",
-      "Wireless â€” Signals, Infrastructure & Roaming (RF theory, MIMO, autonomous vs lightweight AP, WLC, roaming)",
+      "Wireless  Signals, Infrastructure & Roaming (RF theory, MIMO, autonomous vs lightweight AP, WLC, roaming)",
       "Fabric Technologies (SD-Access architecture, Cisco DNA Center, SD-WAN: vManage/vSmart/vBond/vEdge)",
       "Network Assurance (SNMP, syslog, NetFlow, SPAN/RSPAN/ERSPAN, IP SLA, DNA Center Assurance)",
       "Secure Network Access Control (Cisco ISE, 802.1X, TrustSec, MACsec, NGFW, Umbrella, Stealthwatch)",
@@ -252,7 +252,7 @@
       "Network Architect yang membutuhkan referensi modern enterprise networking",
       "Engineer yang ingin memahami SD-Access, SD-WAN, dan network automation"
     ],
-    reviewInfo: "Official Certification Guide dari Cisco Press untuk ujian core ENCOR 350-401 â€” satu-satunya ujian yang menjadi syarat wajib untuk semua jalur CCNP Enterprise maupun pintu masuk CCIE Enterprise. Mencakup seluruh domain: routing & switching klasik, wireless, overlay network, keamanan, SD-Access & SD-WAN, hingga programmability dan otomasi jaringan. Catatan: Diasumsikan pembaca sudah menguasai materi setara CCNA. Disarankan memiliki pengalaman kerja minimal 2â€“3 tahun di bidang networking.",
+    reviewInfo: "Official Certification Guide dari Cisco Press untuk ujian core ENCOR 350-401  satu-satunya ujian yang menjadi syarat wajib untuk semua jalur CCNP Enterprise maupun pintu masuk CCIE Enterprise. Mencakup seluruh domain: routing & switching klasik, wireless, overlay network, keamanan, SD-Access & SD-WAN, hingga programmability dan otomasi jaringan. Catatan: Diasumsikan pembaca sudah menguasai materi setara CCNA. Disarankan memiliki pengalaman kerja minimal 2-3 tahun di bidang networking.",
     whyBuy: [
       "\"Do I Know This Already?\" Quiz di awal setiap chapter",
       "Exam Preparation Tasks & Foundation Summary per chapter",
@@ -289,7 +289,7 @@
       "SOC Analyst & Security Architect di lingkungan enterprise",
       "Engineer yang ingin menguasai ekosistem Cisco Security end-to-end"
     ],
-    reviewInfo: "Official Certification Guide edisi ke-2 dari Cisco Press untuk ujian core SCOR 350-701 â€” membuka jalur CCNP Security sekaligus menjadi qualifying exam untuk CCIE Security. Edisi terbaru mencakup Cisco XDR, Cisco Secure Firewall generasi terbaru, cloud security modern, serta DevSecOps dan container security. Catatan: Diperlukan pemahaman dasar networking setara CCNA Security atau pengalaman kerja minimal 1â€“2 tahun di bidang keamanan jaringan.",
+    reviewInfo: "Official Certification Guide edisi ke-2 dari Cisco Press untuk ujian core SCOR 350-701  membuka jalur CCNP Security sekaligus menjadi qualifying exam untuk CCIE Security. Edisi terbaru mencakup Cisco XDR, Cisco Secure Firewall generasi terbaru, cloud security modern, serta DevSecOps dan container security. Catatan: Diperlukan pemahaman dasar networking setara CCNA Security atau pengalaman kerja minimal 1-2 tahun di bidang keamanan jaringan.",
     whyBuy: [
       "\"Do I Know This Already?\" Quiz di awal setiap chapter",
       "Review Questions + Define Key Terms per chapter",
@@ -308,16 +308,16 @@
     topics: [
       "IPv4/IPv6 Addressing & Routing Review (DHCP troubleshooting, IPv6 SLAAC/DHCPv6, static routes IPv4 & IPv6)",
       "EIGRP & Advanced EIGRP (Classic & named mode, neighbor adjacencies, authentication, summarization, route filtering)",
-      "Troubleshooting EIGRP IPv4 & IPv6 (Neighbor adjacency failures, autosummarization, EIGRPv6 â€” + 5 Trouble Tickets)",
-      "OSPF & Advanced OSPF (DR/BDR, LSA types 1â€“7, stubby areas, NSSA, virtual links, path selection)",
-      "Troubleshooting OSPFv2 & OSPFv3 (Neighbor failures, MTU mismatch, OSPFv3 address families â€” + 6 Trouble Tickets)",
+      "Troubleshooting EIGRP IPv4 & IPv6 (Neighbor adjacency failures, autosummarization, EIGRPv6  + 5 Trouble Tickets)",
+      "OSPF & Advanced OSPF (DR/BDR, LSA types 1-7, stubby areas, NSSA, virtual links, path selection)",
+      "Troubleshooting OSPFv2 & OSPFv3 (Neighbor failures, MTU mismatch, OSPFv3 address families  + 6 Trouble Tickets)",
       "BGP & Advanced BGP (iBGP/eBGP, route reflectors, confederations, communities, MP-BGP IPv6)",
       "BGP Path Selection (12 langkah: Weight â†’ Local Pref â†’ AIGP â†’ AS_PATH â†’ Origin â†’ MED â†’ eBGP over iBGP)",
-      "Troubleshooting BGP (Neighbor adjacency, missing routes, path selection debugging â€” + 4 Trouble Tickets)",
+      "Troubleshooting BGP (Neighbor adjacency, missing routes, path selection debugging  + 4 Trouble Tickets)",
       "Route Maps & Conditional Forwarding (ACL & prefix list, Policy-Based Routing/PBR, local PBR)",
-      "Route Redistribution & Troubleshooting (Seed metrics, routing loops, route maps â€” + 4 Trouble Tickets)",
+      "Route Redistribution & Troubleshooting (Seed metrics, routing loops, route maps  + 4 Trouble Tickets)",
       "VRF, MPLS & MPLS Layer 3 VPN (VRF-Lite, LDP, label switching, MPLS VPN control & data plane)",
-      "DMVPN â€” Konfigurasi & Troubleshooting (GRE tunnels, NHRP, Phase 1/2/3, hub redundancy, IPv6 DMVPN)",
+      "DMVPN  Konfigurasi & Troubleshooting (GRE tunnels, NHRP, Phase 1/2/3, hub redundancy, IPv6 DMVPN)",
       "Securing DMVPN Tunnels (IPsec IKEv2, transform set, tunnel protection, pre-shared key, DPD)",
       "Infrastructure Security (AAA troubleshooting, uRPF, CoPP, IPv6 First-Hop Security: RA Guard, DHCPv6 Guard)",
       "Device Management & Troubleshooting Tools (SNMP, IP SLA, NetFlow, BFD, Cisco DNA Center Assurance)"
@@ -330,7 +330,7 @@
       "NOC / Network Support Engineer yang sering troubleshoot routing issues",
       "Senior Network Engineer yang membutuhkan referensi mendalam EIGRP, OSPF, BGP, MPLS, dan DMVPN"
     ],
-    reviewInfo: "Official Certification Guide dari Cisco Press untuk ujian ENARSI 300-410 â€” ujian spesialisasi advanced routing yang melengkapi ENCOR 350-401 menuju gelar CCNP Enterprise. Setiap protokol dibahas dalam dua chapter: fondasi + troubleshooting, dengan lebih dari 30 Trouble Tickets skenario nyata dan solusi lengkap. Catatan: Diperlukan penguasaan materi setara CCNA atau lulus ujian ENCOR 350-401. Buku ini sangat kaya materi troubleshooting â€” cocok juga sebagai referensi kerja harian.",
+    reviewInfo: "Official Certification Guide dari Cisco Press untuk ujian ENARSI 300-410  ujian spesialisasi advanced routing yang melengkapi ENCOR 350-401 menuju gelar CCNP Enterprise. Setiap protokol dibahas dalam dua chapter: fondasi + troubleshooting, dengan lebih dari 30 Trouble Tickets skenario nyata dan solusi lengkap. Catatan: Diperlukan penguasaan materi setara CCNA atau lulus ujian ENCOR 350-401. Buku ini sangat kaya materi troubleshooting  cocok juga sebagai referensi kerja harian.",
     whyBuy: [
       "\"Do I Know This Already?\" Quiz di awal setiap chapter",
       "Review All Key Topics & Define Key Terms per chapter",
@@ -349,7 +349,7 @@
     topics: [
       "IPv4 Design (VLSM, NAT, hierarchical IP address design, route summarization, DHCP, DNS, ARP)",
       "IPv6 Design (Address types, SLAAC, DHCPv6, IPv4-to-IPv6 migration: dual-stack, 6to4, 6RD, ISATAP, NAT64)",
-      "Routing Protocol Design â€” EIGRP & IS-IS (Stub routers, variance, DUAL, EIGRPv6, IS-IS metrics, area design)",
+      "Routing Protocol Design  EIGRP & IS-IS (Stub routers, variance, DUAL, EIGRPv6, IS-IS metrics, area design)",
       "OSPF, BGP & Route Manipulation (OSPFv2/v3 area design, BGP route reflectors, confederations, redistribution, VRF)",
       "IP Multicast & Network Management (IGMP, PIM-SM, Auto-RP, BIDIR-PIM, SNMP v1/v2/v3, NetFlow, syslog)",
       "Enterprise LAN Design (Hierarchical model access/distribution/core, VSS, EtherChannel, STP design, PortFast, PoE)",
@@ -368,7 +368,7 @@
       "Pre-Sales / Solutions Architect berbasis Cisco",
       "Network Consultant yang merancang solusi LAN, WAN, SD-Access & SD-WAN"
     ],
-    reviewInfo: "Official Certification Guide dari Cisco Press untuk ujian ENSLD 300-420 â€” ujian spesialisasi desain jaringan enterprise yang melengkapi ENCOR 350-401 menuju gelar CCNP Enterprise. Buku dengan 1.227 halaman ini adalah referensi desain jaringan enterprise paling komprehensif dari Cisco Press, mencakup addressing, routing, LAN, WAN, SD-Access, SD-WAN, multicast, hingga network automation. Catatan: Buku ini fokus pada DESAIN dan PERENCANAAN â€” bukan troubleshooting operasional. Sangat cocok sebagai referensi arsitek jaringan dalam proyek enterprise skala besar.",
+    reviewInfo: "Official Certification Guide dari Cisco Press untuk ujian ENSLD 300-420  ujian spesialisasi desain jaringan enterprise yang melengkapi ENCOR 350-401 menuju gelar CCNP Enterprise. Buku dengan 1.227 halaman ini adalah referensi desain jaringan enterprise paling komprehensif dari Cisco Press, mencakup addressing, routing, LAN, WAN, SD-Access, SD-WAN, multicast, hingga network automation. Catatan: Buku ini fokus pada DESAIN dan PERENCANAAN  bukan troubleshooting operasional. Sangat cocok sebagai referensi arsitek jaringan dalam proyek enterprise skala besar.",
     whyBuy: [
       "\"Do I Know This Already?\" Quiz di awal setiap chapter",
       "Review All Key Topics, Define Key Terms & Q&A per chapter",
@@ -389,11 +389,11 @@
       "The Four Dimensions of Service Management (Organizations & people, information & technology, partners & suppliers, value streams & processes, PESTLE)",
       "The ITIL Service Value System / SVS (SVS overview, opportunity & demand, value output, governance in SVS)",
       "The 7 ITIL Guiding Principles (Focus on value, start where you are, progress iteratively with feedback, collaborate, think holistically, keep it simple, optimize and automate)",
-      "Service Value Chain / SVC (Plan, Improve, Engage, Design & Transition, Obtain/Build, Deliver & Support â€” 6 aktivitas inti value stream)",
+      "Service Value Chain / SVC (Plan, Improve, Engage, Design & Transition, Obtain/Build, Deliver & Support  6 aktivitas inti value stream)",
       "Continual Improvement (7 langkah continual improvement model, kaitan dengan guiding principles & semua praktik ITIL)",
-      "General Management Practices â€” 14 Praktik (Architecture management, continual improvement, information security management, knowledge management, project management, risk management, dll.)",
-      "Service Management Practices â€” 17 Praktik (Availability management, change control, incident management, problem management, service desk, service level management, dll.)",
-      "Technical Management Practices â€” 3 Praktik (Deployment management, infrastructure & platform management, software development & management)"
+      "General Management Practices  14 Praktik (Architecture management, continual improvement, information security management, knowledge management, project management, risk management, dll.)",
+      "Service Management Practices  17 Praktik (Availability management, change control, incident management, problem management, service desk, service level management, dll.)",
+      "Technical Management Practices  3 Praktik (Deployment management, infrastructure & platform management, software development & management)"
     ],
     audienceLabel: "Beginner | Intermediate",
     audience: [
@@ -404,7 +404,7 @@
       "DevOps & Agile practitioner yang ingin memahami konteks ITSM",
       "Profesional non-IT (HR, Finance, Operations) yang bekerja di organisasi berbasis ITIL"
     ],
-    reviewInfo: "Publikasi resmi ITIL 4 Foundation dari AXELOS â€” badan standar IT Service Management global yang dipercaya oleh jutaan profesional di lebih dari 180 negara. ITIL 4 mengintegrasikan pendekatan Agile, DevOps, dan Lean ke dalam framework manajemen layanan IT modern, dengan fokus pada value co-creation dan 34 praktik manajemen yang fleksibel. Catatan: Tidak diperlukan pengalaman IT sebelumnya. Buku ini adalah publikasi resmi dari AXELOS â€” cocok sebagai referensi ujian sekaligus panduan implementasi ITIL 4 di organisasi.",
+    reviewInfo: "Publikasi resmi ITIL 4 Foundation dari AXELOS  badan standar IT Service Management global yang dipercaya oleh jutaan profesional di lebih dari 180 negara. ITIL 4 mengintegrasikan pendekatan Agile, DevOps, dan Lean ke dalam framework manajemen layanan IT modern, dengan fokus pada value co-creation dan 34 praktik manajemen yang fleksibel. Catatan: Tidak diperlukan pengalaman IT sebelumnya. Buku ini adalah publikasi resmi dari AXELOS  cocok sebagai referensi ujian sekaligus panduan implementasi ITIL 4 di organisasi.",
     whyBuy: [
       "Penjelasan resmi semua konsep & terminologi ITIL 4",
       "Deskripsi lengkap 34 praktik manajemen",
@@ -427,9 +427,9 @@
       "Blockchain APIs (API integration patterns, on-chain & off-chain data access, interacting with nodes via RPC & REST)",
       "Network Security & Privacy (51% attack, Sybil, eclipse, double-spend, ZKP, mixing, confidential transactions)",
       "Node Maintenance & Optimization (Data storage & management, performance tuning, backup & disaster recovery)",
-      "Platform Deep-Dive â€” Bitcoin (UTXO model, mining, SegWit, Lightning Network, Bitcoin scripting)",
-      "Platform Deep-Dive â€” Ethereum (EVM, account model, gas & fee mechanism, Solidity, PoS post-Merge, Layer 2 overview)",
-      "Platform Deep-Dive â€” Hyperledger (Fabric: peers, orderers, channels, chaincode, permissioned blockchain, enterprise deployment)",
+      "Platform Deep-Dive  Bitcoin (UTXO model, mining, SegWit, Lightning Network, Bitcoin scripting)",
+      "Platform Deep-Dive  Ethereum (EVM, account model, gas & fee mechanism, Solidity, PoS post-Merge, Layer 2 overview)",
+      "Platform Deep-Dive  Hyperledger (Fabric: peers, orderers, channels, chaincode, permissioned blockchain, enterprise deployment)",
       "Blockchain & Web3 Tech Stack (Web3.js/Ethers.js, wallet integration, nodes, indexers, IPFS, oracles/Chainlink, full Web3 stack)",
       "ChatGPT Super Prompt Templates (Ready-to-use prompts untuk smart contract development, security audit, tokenomics design, whitepaper drafting)",
       "Interview Questions & Quiz (180+ interview questions untuk blockchain engineer roles, quiz & answer key)"
@@ -445,11 +445,11 @@
     ],
     reviewInfo: "Playbook engineering blockchain paling praktis dan terkini untuk tahun 2024, mencakup seluruh spektrum: dari fondasi konseptual, keamanan node, hingga implementasi nyata di Bitcoin, Ethereum, Hyperledger, Multichain, dan HYFI. Edisi 2024 mencakup perkembangan terbaru: post-Merge Ethereum, L2, ZKP, dan dilengkapi ChatGPT Super Prompt Templates siap pakai serta 180+ Interview Questions. Catatan: Pemahaman dasar pemrograman (Python/JavaScript/Solidity) sangat dianjurkan. Konsep teknis dijelaskan dari dasar.",
     whyBuy: [
-      "Edisi 2024 â€” mencakup post-Merge Ethereum, Layer 2, dan ZKP terbaru",
+      "Edisi 2024  mencakup post-Merge Ethereum, Layer 2, dan ZKP terbaru",
       "Mencakup 5 platform blockchain sekaligus dalam satu buku",
       "ChatGPT Super Prompt Templates siap pakai untuk produktivitas engineer",
       "180+ Interview Questions & Quiz untuk persiapan karir Blockchain Engineer",
-      "Pendekatan engineering playbook â€” panduan tindakan nyata, bukan teori semata"
+      "Pendekatan engineering playbook  panduan tindakan nyata, bukan teori semata"
     ],
     price: 180000,
     coverPath: "assets/images/books/blockchain-engineering/cover/1776068242849_8693863.webp",
@@ -457,7 +457,7 @@
     buyUrl: "https://lynk.id/digitalitlibrary/mkjqdy9re323"
   },
   {
-    id: "live13", title: "CompTIA Security+ Study Guide â€” Exam SY0-701", category: "Security & Assurance", cover: "", isFeatured: false,
+    id: "live13", title: "CompTIA Security+ Study Guide  Exam SY0-701", category: "Security & Assurance", cover: "", isFeatured: false,
     fileType: "PDF", size: "9.32 MB", pages: 993, language: "English",
     topics: [
       "Security Professional & Data Protection (CIA Triad, security controls framework, data classification & protection strategies)",

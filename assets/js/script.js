@@ -26,6 +26,28 @@ function init() {
   }
   setupModalEvents();
   setupMobileMenu();
+  checkUrlForBook();
+}
+
+function checkUrlForBook() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const bookId = urlParams.get('book');
+  if (bookId) {
+    openModal(bookId);
+  }
+}
+
+function shareProduct(bookId) {
+  const url = window.location.origin + window.location.pathname + "?book=" + bookId;
+  navigator.clipboard.writeText(url).then(() => {
+    const toast = document.getElementById("toast");
+    if (toast) {
+      toast.className = "toast show";
+      setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 3000);
+    }
+  }).catch(err => {
+    console.error('Failed to copy: ', err);
+  });
 }
 
 function setupMobileMenu() {
@@ -218,6 +240,15 @@ function openModal(bookId) {
 
   document.getElementById('m-buy-btn').href = book.buyUrl || lynkUrl;
 
+  const shareBtn = document.getElementById('m-share-btn');
+  if (shareBtn) {
+    shareBtn.onclick = function() { shareProduct(book.id); };
+  }
+
+  // Update URL without reloading
+  const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?book=' + book.id;
+  window.history.pushState({path:newUrl},'',newUrl);
+
   modalOverlay.classList.add('active');
   document.body.style.overflow = 'hidden'; 
 }
@@ -225,6 +256,10 @@ function openModal(bookId) {
 function closeModal() {
   modalOverlay.classList.remove('active');
   document.body.style.overflow = '';
+  
+  // Clean up URL
+  const cleanUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+  window.history.replaceState({path:cleanUrl},'',cleanUrl);
 }
 
 function setupModalEvents() {
