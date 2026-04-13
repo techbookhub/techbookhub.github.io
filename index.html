@@ -149,7 +149,7 @@
                 <div class="modal-title-area">
                     <h3 class="modal-book-title" id="m-title">Book Title</h3>
                     <span class="modal-badge" id="m-category">Category</span>
-                    <div class="m-price-tag" id="m-price">-</div>
+                    <div id="m-price-wrap"></div>
                 </div>
             </div>
 
@@ -192,7 +192,10 @@
                 </ul>
                 
                 <div style="margin-top:2rem; display: flex; gap: 1rem;">
-                    <button class="btn btn-share" id="m-share-btn" style="width: 30%; background: transparent; border: 1px solid var(--primary-light); color: var(--primary-light);">Bagikan</button>
+                    <button class="btn btn-share" id="m-share-btn" style="width: 30%; background: transparent; border: 1px solid var(--primary-light); color: var(--primary-light); display: flex; align-items: center; justify-content: center;">
+                        <span class="share-text">Bagikan</span>
+                        <svg class="share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 20px; height: 20px; display: none;"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                    </button>
                     <a href="#" target="_blank" class="btn" id="m-buy-btn" style="width:70%; text-align:center;">Beli Sekarang</a>
                 </div>
             </div>

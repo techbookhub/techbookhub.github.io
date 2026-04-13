@@ -96,15 +96,24 @@ function createCardHTML(book) {
   const coverFallback = `this.style.display='none'; this.parentElement.style.background='linear-gradient(135deg, rgba(99,102,241,0.2), rgba(168,85,247,0.2))'`;
   const imageSrc = book.coverPath || book.cover;
   const priceFormatted = book.price ? formatterIDR.format(book.price) : '';
+  const originalPriceFormatted = book.originalPrice ? formatterIDR.format(book.originalPrice) : '';
+
+  const priceHTML = book.originalPrice 
+    ? `<div class="price-container" style="flex-direction: column; align-items: flex-start; margin-bottom:1rem;">
+         <span class="original-price" style="margin:0;">${originalPriceFormatted}</span>
+         <span class="discount-badge" style="margin-top:4px;">Disc. 75%</span>
+         <p class="book-price" style="margin-top:8px; margin-bottom:0;">${priceFormatted}</p>
+       </div>`
+    : (priceFormatted ? `<p class="book-price">${priceFormatted}</p>` : '');
 
   return `
     <div class="book-card">
       <div class="book-cover">
         <span class="book-tag">${book.category.split(' ')[0]}</span>
-        <img src="${imageSrc}" alt="${book.title}" loading="lazy" onerror="${coverFallback}">
+        <img src="${imageSrc}" alt="${book.title}" loading="lazy" decoding="async" onerror="${coverFallback}">
       </div>
       <h3 class="book-title">${book.title}</h3>
-      ${priceFormatted ? `<p class="book-price">${priceFormatted}</p>` : ''}
+      ${priceHTML}
       <div class="book-actions">
         <button class="btn-outline" onclick="openModal('${book.id}')">Details</button>
         <a href="${book.buyUrl || lynkUrl}" target="_blank" class="btn-buy">Beli</a>
@@ -186,9 +195,19 @@ function openModal(bookId) {
   document.getElementById('m-category').innerText = book.category;
   document.getElementById('m-cover').src = book.coverPath || book.cover;
   
-  const mPrice = document.getElementById('m-price');
-  if(mPrice) {
-    mPrice.innerText = book.price ? formatterIDR.format(book.price) : 'Gratis / TBD';
+  const mPriceWrap = document.getElementById('m-price-wrap');
+  if(mPriceWrap) {
+    if (book.originalPrice && book.price) {
+       mPriceWrap.innerHTML = `
+         <div style="display:flex; flex-direction:column; align-items:flex-start;">
+           <span class="original-price" style="margin:0;">${formatterIDR.format(book.originalPrice)}</span>
+           <span class="discount-badge" style="margin-top:4px;">Disc. 75%</span>
+         </div>
+         <div class="m-price-tag" style="margin-top:8px;">${formatterIDR.format(book.price)}</div>
+       `;
+    } else {
+       mPriceWrap.innerHTML = book.price ? `<div class="m-price-tag">${formatterIDR.format(book.price)}</div>` : '<div class="m-price-tag">Gratis / TBD</div>';
+    }
   }
   
   const fileType = book.fileType || 'N/A';
@@ -204,7 +223,7 @@ function openModal(bookId) {
      if (book.sampleImages && book.sampleImages.length > 0) {
         // Feature: Sample image fallback
         const sampleFallback = `this.style.display='none'`;
-        mSamples.innerHTML = book.sampleImages.map(src => `<img src="${src}" class="sample-img" alt="Sample from ${book.title}" onerror="${sampleFallback}" onclick="openZoomModal('${src}')">`).join('');
+        mSamples.innerHTML = book.sampleImages.map(src => `<img src="${src}" class="sample-img" alt="Sample from ${book.title}" loading="lazy" decoding="async" onerror="${sampleFallback}" onclick="openZoomModal('${src}')">`).join('');
      } else {
         mSamples.innerHTML = `<p style="color:var(--text-muted); font-size:0.9rem;">Belum ada capture sample untuk produk ini.</p>`;
      }
@@ -301,4 +320,20 @@ document.addEventListener('DOMContentLoaded', () => {
       if(e.target === zoomModal) closeZoomModal();
     });
   }
+
+  // Handle browser 'Back' button to close modal
+  window.addEventListener('popstate', (e) => {
+    if (modalOverlay.classList.contains('active')) {
+      closeModal();
+    }
+  });
+
+  // Handle 'Escape' key to close modals
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      if (modalOverlay.classList.contains('active')) closeModal();
+      const zoomModal = document.getElementById('zoomModal');
+      if (zoomModal && zoomModal.style.display === "block") closeZoomModal();
+    }
+  });
 });

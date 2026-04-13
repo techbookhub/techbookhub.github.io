@@ -1,4 +1,4 @@
-﻿const booksData = [
+const booksData = [
   {
     id: "live1", title: "ISC2 SSCP Official Study Guide - Third Edition", category: "Security & Assurance", cover: "", isFeatured: false,
     fileType: "PDF", size: "9.4 MB (9,410 KB)", pages: 819, language: "English",
@@ -35,6 +35,7 @@
       "Domain Coverage penuh sesuai blueprint SSCP",
       "Framework eksklusif CIANA+PS dari ISC2"
     ],
+    originalPrice: 960000,
     price: 240000,
     coverPath: "assets/images/books/isc2-sscp/cover/1775989251010_7700035.webp",
     sampleImages: ["assets/images/books/isc2-sscp/sample/1775989251402_7310970.webp"],
@@ -72,6 +73,7 @@
       "Pengenalan Kubernetes Architecture untuk persiapan scale-up",
       "Materi CI/CD untuk alur kerja modern"
     ],
+    originalPrice: 480000,
     price: 120000,
     coverPath: "assets/images/books/docker-tutor/cover/1776051576496_1047407.webp",
     sampleImages: ["assets/images/books/docker-tutor/sample/1776051576710_2061703.webp"],
@@ -109,6 +111,7 @@
       "Bagaimana blockchain dan open banking menciptakan ekosistem baru?",
       "Ancaman cyber apa yang mengintai bank dan bagaimana mengatasinya?"
     ],
+    originalPrice: 640000,
     price: 160000,
     coverPath: "assets/images/books/ai-and-future/cover/1776052489169_5509036.webp",
     sampleImages: ["assets/images/books/ai-and-future/sample/1776052489391_8901064.webp"],
@@ -144,6 +147,7 @@
       "Library lengkap : NumPy, Pandas, SciPy, Scikit-learn, Plotly, NetworkX, BeautifulSoup",
       "Cocok sebagai referensi kerja sehari-hari maupun bahan belajar terstruktur"
     ],
+    originalPrice: 800000,
     price: 200000,
     coverPath: "assets/images/books/data-science-handbook/cover/1776053309561_8102898.webp",
     sampleImages: ["assets/images/books/data-science-handbook/sample/1776053309857_3768782.webp"],
@@ -182,6 +186,7 @@
       "Practice exam via Pearson Cert Practice Test Engine",
       "Appendix B: CCIE Exam Updates untuk materi update ujian"
     ],
+    originalPrice: 960000,
     price: 240000,
     coverPath: "assets/images/books/cisco-ccie-1/cover/1776059333247_5520275.webp",
     sampleImages: ["assets/images/books/cisco-ccie-1/sample/1776059333555_1605100.webp"],
@@ -219,6 +224,7 @@
       "Practice exam via Pearson Cert Practice Test Engine",
       "Appendix B: CCIE Exam Updates untuk materi update ujian"
     ],
+    originalPrice: 960000,
     price: 240000,
     coverPath: "assets/images/books/cisco-ccie-2/cover/1776060137681_3662731.webp",
     sampleImages: ["assets/images/books/cisco-ccie-2/sample/1776060137973_1546368.webp"],
@@ -260,6 +266,7 @@
       "Practice exam via Pearson Test Prep (online & offline)",
       "Appendix B: ENCOR Exam Updates untuk materi terkini"
     ],
+    originalPrice: 960000,
     price: 240000,
     coverPath: "assets/images/books/cisco-ccnp-encor/cover/1776061104217_1263758.webp",
     sampleImages: ["assets/images/books/cisco-ccnp-encor/sample/1776061104498_6587587.webp"],
@@ -297,6 +304,7 @@
       "Hands-on activities untuk persiapan lab exam CCIE Security",
       "Glossary komprehensif ratusan istilah cybersecurity & Cisco"
     ],
+    originalPrice: 1120000,
     price: 280000,
     coverPath: "assets/images/books/cisco-ccnp-scor/cover/1776062136801_6728229.webp",
     sampleImages: ["assets/images/books/cisco-ccnp-scor/sample/1776062137101_9152486.webp"],
@@ -338,6 +346,7 @@
       "30+ Trouble Tickets dengan topologi, analisis, dan solusi lengkap",
       "Appendix B: ENARSI Exam Updates untuk materi terkini"
     ],
+    originalPrice: 960000,
     price: 240000,
     coverPath: "assets/images/books/cisco-ccnp-enarsi/cover/1776062913266_8329607.webp",
     sampleImages: ["assets/images/books/cisco-ccnp-enarsi/sample/1776062913541_1352847.webp"],
@@ -376,6 +385,7 @@
       "Practice exam via Pearson Test Prep (online & offline)",
       "Chapter 14: Exam Updates untuk materi ujian terkini"
     ],
+    originalPrice: 960000,
     price: 240000,
     coverPath: "assets/images/books/cisco-ensld/cover/1776064046901_6031350.webp",
     sampleImages: ["assets/images/books/cisco-ensld/sample/1776064047185_3451827.webp"],
@@ -412,6 +422,7 @@
       "7 Guiding Principles sebagai panduan keputusan universal",
       "Referensi standar untuk persiapan ujian ITIL 4 Foundation"
     ],
+    originalPrice: 800000,
     price: 200000,
     coverPath: "assets/images/books/itil-foundation/cover/1775983771416_9879946.webp",
     sampleImages: ["assets/images/books/itil-foundation/sample/1775983771710_5469076.webp"],
@@ -451,6 +462,7 @@
       "180+ Interview Questions & Quiz untuk persiapan karir Blockchain Engineer",
       "Pendekatan engineering playbook  panduan tindakan nyata, bukan teori semata"
     ],
+    originalPrice: 720000,
     price: 180000,
     coverPath: "assets/images/books/blockchain-engineering/cover/1776068242849_8693863.webp",
     sampleImages: ["assets/images/books/blockchain-engineering/sample/1776068243119_5386512.webp"],
@@ -493,6 +505,7 @@
       "Full coverage semua domain & objective blueprint SY0-701",
       "Practical examples & scenario-based questions sesuai format ujian"
     ],
+    originalPrice: 960000,
     price: 240000,
     coverPath: "assets/images/books/security+/cover/1776068759289_6839439.webp",
     sampleImages: ["assets/images/books/security+/sample/1776068759509_1747589.webp"],
