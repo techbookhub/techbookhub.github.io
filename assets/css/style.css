@@ -275,3 +275,14 @@ footer { background: var(--bg-darker); border-top: 1px solid var(--glass-border)
   background: rgba(168, 85, 247, 0.1) !important;
   color: white !important;
 }
+
+/* Share Button Responsive Logic */
+@media (max-width: 768px) {
+  .share-text { display: none; }
+  .share-icon { display: block !important; }
+}
+
+/* Discount & Price Styles - Psychological Design */
+.price-container { display: flex; align-items: center; flex-wrap: wrap; margin-bottom: 0.5rem; }
+.original-price { font-size: 1.15rem; color: #94a3b8; text-decoration: line-through; text-decoration-color: #ef4444; text-decoration-thickness: 2px; font-weight: 600; margin-right: 8px; }
+.discount-badge { background: #ef4444; color: white; padding: 3px 10px; font-size: 0.8rem; border-radius: 6px; font-weight: 800; letter-spacing: 0.5px; display: inline-block; box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3); vertical-align: middle; }
