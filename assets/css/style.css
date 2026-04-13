@@ -215,3 +215,46 @@ footer { background: var(--bg-darker); border-top: 1px solid var(--glass-border)
 .samples-container::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); border-radius: 10px; }
 .sample-img { width: 120px; height: 160px; object-fit: cover; border-radius: 8px; border: 1px solid var(--glass-border); transition: transform 0.3s, border-color 0.3s; cursor: pointer; flex-shrink: 0; background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(168, 85, 247, 0.1)); }
 .sample-img:hover { transform: scale(1.05); border-color: var(--primary-light); }
+
+/* Zoom Modal */
+.zoom-modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(8px);
+    cursor: zoom-out;
+}
+.zoom-modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    animation-name: zoomIn;
+    animation-duration: 0.3s;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+@keyframes zoomIn {
+    from {transform:scale(0); opacity:0;}
+    to {transform:scale(1); opacity:1;}
+}
+.zoom-close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.zoom-close:hover {
+    color: var(--primary-light);
+}

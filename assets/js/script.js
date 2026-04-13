@@ -85,7 +85,7 @@ function createCardHTML(book) {
       ${priceFormatted ? `<p class="book-price">${priceFormatted}</p>` : ''}
       <div class="book-actions">
         <button class="btn-outline" onclick="openModal('${book.id}')">Details</button>
-        <a href="${lynkUrl}" target="_blank" class="btn-buy">Beli</a>
+        <a href="${book.buyUrl || lynkUrl}" target="_blank" class="btn-buy">Beli</a>
       </div>
     </div>
   `;
@@ -182,7 +182,7 @@ function openModal(bookId) {
      if (book.sampleImages && book.sampleImages.length > 0) {
         // Feature: Sample image fallback
         const sampleFallback = `this.style.display='none'`;
-        mSamples.innerHTML = book.sampleImages.map(src => `<img src="${src}" class="sample-img" alt="Sample from ${book.title}" onerror="${sampleFallback}">`).join('');
+        mSamples.innerHTML = book.sampleImages.map(src => `<img src="${src}" class="sample-img" alt="Sample from ${book.title}" onerror="${sampleFallback}" onclick="openZoomModal('${src}')">`).join('');
      } else {
         mSamples.innerHTML = `<p style="color:var(--text-muted); font-size:0.9rem;">Belum ada capture sample untuk produk ini.</p>`;
      }
@@ -216,7 +216,7 @@ function openModal(bookId) {
   const whyUl = document.getElementById('m-why');
   if(whyUl) whyUl.innerHTML = book.whyBuy.map(w => '<li>' + w + '</li>').join('');
 
-  document.getElementById('m-buy-btn').href = lynkUrl;
+  document.getElementById('m-buy-btn').href = book.buyUrl || lynkUrl;
 
   modalOverlay.classList.add('active');
   document.body.style.overflow = 'hidden'; 
@@ -238,4 +238,32 @@ function setupModalEvents() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', init);
+function openZoomModal(src) {
+  const zoomModal = document.getElementById('zoomModal');
+  const zoomedImage = document.getElementById('zoomedImage');
+  if(zoomModal && zoomedImage) {
+    zoomedImage.src = src;
+    zoomModal.style.display = "block";
+  }
+}
+
+function closeZoomModal() {
+  const zoomModal = document.getElementById('zoomModal');
+  if(zoomModal) {
+    zoomModal.style.display = "none";
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  init();
+  
+  const closeZoomBtn = document.getElementById('closeZoomModal');
+  if(closeZoomBtn) closeZoomBtn.addEventListener('click', closeZoomModal);
+  
+  const zoomModal = document.getElementById('zoomModal');
+  if(zoomModal) {
+    zoomModal.addEventListener('click', (e) => {
+      if(e.target === zoomModal) closeZoomModal();
+    });
+  }
+});
