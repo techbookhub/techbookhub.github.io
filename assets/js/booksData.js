@@ -510,6 +510,311 @@ const booksData = [
     coverPath: "assets/images/books/security+/cover/1776068759289_6839439.webp",
     sampleImages: ["assets/images/books/security+/sample/1776068759509_1747589.webp"],
     buyUrl: "https://lynk.id/digitalitlibrary/1dkqrzo2r5rq"
+  },
+  {
+    id: "live14", title: "The Beginner's Guide to Kubernetes", category: "Cloud & Virtualization", cover: "", isFeatured: false,
+    fileType: "PDF", size: "10.8 MB", pages: 234, language: "English",
+    topics: [
+      "Kubernetes Fundamentals",
+      "Kubernetes Resources & Core Objects",
+      "Application Configuration",
+      "Stateful Workloads & Storage",
+      "Container Design Patterns",
+      "Application Health & Probes",
+      "Security in Kubernetes",
+      "Scaling & Resource Management",
+      "Extending Kubernetes",
+      "Practical Kubernetes"
+    ],
+    audienceLabel: "Intermediate | Professional",
+    audience: [
+      "Backend Developer & Full-Stack Engineer yang ingin deploy aplikasi di Kubernetes",
+      "DevOps / Platform Engineer yang membangun & mengelola cluster Kubernetes",
+      "SRE (Site Reliability Engineer) yang bertanggung jawab atas availability & scaling",
+      "Cloud Engineer (AWS/GCP/Azure) yang menggunakan managed Kubernetes (EKS/GKE/AKS)",
+      "Kandidat sertifikasi CKA (Certified Kubernetes Administrator) atau CKAD"
+    ],
+    reviewInfo: "Panduan praktis Kubernetes yang komprehensif — mencakup seluruh siklus hidup aplikasi containerized di Kubernetes: dari resource dasar, konfigurasi, storage, keamanan, scaling, hingga extensibility dengan CRDs dan Operators. Catatan : Diperlukan pemahaman dasar container & Docker sebelum membaca buku ini. Pemahaman dasar Linux command line sangat membantu.",
+    whyBuy: [
+      "Pendekatan hands-on — setiap konsep disertai contoh YAML manifest nyata",
+      "Mencakup container design patterns (Sidecar, Ambassador, Adapter) yang jarang dibahas",
+      "Security in Kubernetes dibahas secara mendalam: RBAC, Network Policy, Security Context",
+      "Kubernetes Operators & CRDs — topik advanced yang menjadi standar industri modern",
+      "Practical section dengan deployment nyata: SSL termination + cert-manager + Ambassador"
+    ],
+    originalPrice: 480000,
+    price: 120000,
+    coverPath: "assets/images/books/beginner-k8s/cover/1776072418897_4295067.webp",
+    sampleImages: ["assets/images/books/beginner-k8s/sample/1776072419208_6947170.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/mexpjqo391ed"
+  },
+  {
+    id: "live15", title: "n8n Automation for Beginners", category: "Data Science & AI", cover: "", isFeatured: false,
+    fileType: "PDF", size: "1.72 MB", pages: 203, language: "English",
+    topics: [
+      "Pengantar n8n & Setup",
+      "Membangun Workflow dengan Aplikasi Populer",
+      "Logika & Kontrol Workflow",
+      "Integrasi API",
+      "Scripting & Custom Code",
+      "AI Tools & Automation Agents",
+      "Advanced AI Workflows",
+      "Deployment, Scaling & Best Practices"
+    ],
+    audienceLabel: "Beginner | Intermediate",
+    audience: [
+      "Non-developer yang ingin mengotomasi pekerjaan tanpa coding",
+      "Digital Marketer, Content Creator & Social Media Manager",
+      "Virtual Assistant & Freelancer yang ingin meningkatkan produktivitas",
+      "Developer & DevOps yang ingin eksplorasi no-code/low-code automation",
+      "Pemilik bisnis & startup yang ingin mengotomasi proses operasional",
+      "AI enthusiast yang ingin membangun workflow berbasis ChatGPT & LLM"
+    ],
+    reviewInfo: "Panduan paling praktis untuk belajar n8n dari nol — platform workflow automation open-source yang saat ini menjadi alternatif populer Zapier dan Make (Integromat) dengan keunggulan self-hosting dan fleksibilitas tak terbatas. Catatan : Tidak diperlukan kemampuan coding — buku ini dirancang untuk pemula. Pemahaman dasar tentang aplikasi web (email, spreadsheet) sudah cukup untuk memulai.",
+    whyBuy: [
+      "Cocok untuk non-developer — pendekatan visual & step-by-step tanpa jargon teknis",
+      "Mencakup integrasi AI & ChatGPT — membangun AI agent dengan n8n",
+      "Panduan self-hosting lengkap: Docker, VPS, dan cloud deployment",
+      "Appendix lengkap: Node cheatsheet, API testing tools & AI service providers",
+      "Topik terkini 2024: AI workflow automation yang sedang booming"
+    ],
+    originalPrice: 480000,
+    price: 120000,
+    coverPath: "assets/images/books/n8n-beginner/cover/1776080089646_6922043.webp",
+    sampleImages: ["assets/images/books/n8n-beginner/sample/1776080089939_9968076.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/lrn7jynq6044"
+  },
+  {
+    id: "live16", title: "Practical Cloud Security A Guide for Secure Design and Deployment", category: "Cloud & Virtualization", cover: "", isFeatured: false,
+    fileType: "PDF", size: "6.59 MB", pages: 195, language: "English",
+    topics: [
+      "Prinsip & Konsep Cloud Security",
+      "Data Asset Management & Protection",
+      "Cloud Asset Management & Protection",
+      "Identity & Access Management (IAM)",
+      "Vulnerability Management",
+      "Network Security",
+      "Deteksi, Respons & Recovery dari Insiden"
+    ],
+    audienceLabel: "Intermediate | Professional",
+    audience: [
+      "Cloud Architect & Solutions Architect yang merancang sistem aman di AWS/GCP/Azure",
+      "Cloud Security Engineer & DevSecOps Engineer",
+      "Security Analyst yang bertanggung jawab atas postur keamanan cloud",
+      "Software Engineer & Backend Developer yang membangun aplikasi cloud-native",
+      "Compliance & Risk Officer yang mengelola cloud security governance",
+      "Kandidat sertifikasi CCSP / AWS Security Specialty / GCP Security Engineer"
+    ],
+    reviewInfo: "Panduan praktis cloud security dari O'Reilly yang membahas bagaimana merancang dan men-deploy sistem cloud yang aman dari awal — bukan sekadar \"checklist compliance\". Pendekatan unik buku ini menggunakan sample application yang diikuti secara konsisten di setiap chapter. Catatan : Diperlukan pemahaman dasar cloud computing (IaaS/PaaS/SaaS) dan konsep keamanan IT dasar.",
+    whyBuy: [
+      "\"Putting It All Together\" section di setiap chapter — menunjukkan implementasi nyata",
+      "Membahas perbedaan cloud vs traditional IT security secara eksplisit per domain",
+      "Mencakup seluruh stack: data → IAM → vulnerability → network → incident response",
+      "Vendor-agnostic — berlaku untuk AWS, GCP, Azure, maupun multi-cloud",
+      "Kompak dan padat (195 halaman) — langsung ke intinya tanpa padding"
+    ],
+    originalPrice: 800000,
+    price: 200000,
+    coverPath: "assets/images/books/practical-cloudsec/cover/1776143784609_4429918.webp",
+    sampleImages: ["assets/images/books/practical-cloudsec/sample/1776143784843_8343880.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/dw4dyew0eg1z"
+  },
+  {
+    id: "live17", title: "Agent Based AI", category: "Data Science & AI", cover: "", isFeatured: false,
+    fileType: "PDF", size: "1.93 MB", pages: 277, language: "English",
+    topics: [
+      "Fundamentals of AI Agents",
+      "Multi-Agent Systems (MAS)",
+      "Advanced Topics & Etika AI Agents",
+      "AutoGen — Framework Multi-Agent",
+      "Self-Learning & Autonomous Development",
+      "Human-Agent Interaction",
+      "Testing, Evaluasi & Validasi AI Agents",
+      "Metodologi Pengembangan AI Agents",
+      "Security & Ethics in AI Agents",
+      "Emerging Technologies & Tren AI Agents"
+    ],
+    audienceLabel: "Intermediate | Professional",
+    audience: [
+      "AI / ML Engineer yang ingin memahami agent-based systems secara mendalam",
+      "Software Engineer & Backend Developer yang membangun aplikasi berbasis LLM & agent",
+      "Peneliti & Mahasiswa S2/S3 bidang AI, Machine Learning & Robotics",
+      "AI Product Manager & Tech Lead yang merancang sistem AI otonom",
+      "Data Scientist yang ingin beralih ke domain AI agents & multi-agent systems",
+      "AI enthusiast yang ingin memahami fondasi teoritis hingga implementasi AutoGen"
+    ],
+    reviewInfo: "Panduan komprehensif tentang AI Agents — dari fondasi konseptual hingga implementasi multi-agent system modern yang berbasis LLM. Buku ini adalah salah satu referensi paling lengkap yang membahas Agentic AI secara holistik. Catatan : Diperlukan pemahaman dasar Machine Learning dan konsep LLM (Large Language Models).",
+    whyBuy: [
+      "Satu-satunya buku yang membahas AutoGen secara mendalam dengan contoh kode .NET & Python",
+      "Mencakup dimensi filosofis & etika AI — tidak hanya teknis",
+      "Self-learning agents: AlphaZero, SEAL, Darwin Gödel Machine — state-of-the-art research",
+      "Human-agent interaction & explainability — aspek kritis yang sering diabaikan",
+      "Tren 2024–2025: LLM-based agents, multimodal agents, MARL advances"
+    ],
+    originalPrice: 640000,
+    price: 160000,
+    coverPath: "assets/images/books/agent-based-ai/cover/1776144555486_9234914.webp",
+    sampleImages: ["assets/images/books/agent-based-ai/sample/1776144555732_4286267.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/097o6nlkojk4"
+  },
+  {
+    id: "live18", title: "Python in Excel 2024", category: "Data Science & AI", cover: "", isFeatured: false,
+    fileType: "PDF", size: "2.13 MB", pages: 607, language: "English",
+    topics: [
+      "Pengantar Python & Integrasi dengan Excel",
+      "Setup Environment",
+      "Basic Python Scripting untuk Excel",
+      "Excel Object Model & Python",
+      "Analisis Data dengan Python di Excel",
+      "Visualisasi Data",
+      "Advanced Data Manipulation",
+      "Automation & Scripting",
+      "Fungsi PY() di Excel"
+    ],
+    audienceLabel: "Beginner | Intermediate",
+    audience: [
+      "Excel Power User yang ingin upgrade ke kemampuan Python",
+      "Data Analyst & Business Analyst yang bekerja dengan data Excel sehari-hari",
+      "Akuntan, Financial Analyst & Controller yang ingin otomasi laporan",
+      "Pemula Python yang ingin belajar melalui konteks Excel yang sudah familiar",
+      "Marketing & Operations professional yang mengelola data besar di spreadsheet",
+      "Mahasiswa bisnis & ekonomi yang ingin meningkatkan skill analisis data"
+    ],
+    reviewInfo: "Panduan lengkap dan terkini 2024 untuk mengintegrasikan Python ke dalam Microsoft Excel — mencakup dua pendekatan sekaligus: Python eksternal via library (openpyxl, pandas, xlwings) dan fitur terbaru =PY() function yang memungkinkan kode Python berjalan langsung di dalam cell Excel 365. Catatan : Tidak diperlukan pengalaman Python sebelumnya. Pemahaman dasar Excel (formula, pivot table) sangat membantu.",
+    whyBuy: [
+      "Membahas fitur =PY() — fitur terbaru Microsoft Excel 2024 yang masih jarang dibahas di buku lain",
+      "Cocok untuk non-programmer — belajar Python dalam konteks familiar Excel",
+      "Lebih dari 600 halaman konten praktis dengan contoh kode nyata",
+      "Menggabungkan dua ekosistem terpopuler: Python (data science) + Excel (bisnis)",
+      "Panduan migrasi dari VBA macro ke Python yang lebih powerful & maintainable"
+    ],
+    originalPrice: 560000,
+    price: 140000,
+    coverPath: "assets/images/books/python-excel/cover/1776145028997_6804562.webp",
+    sampleImages: ["assets/images/books/python-excel/sample/1776145029226_5400031.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/j4o2elmvm8mz"
+  },
+  {
+    id: "live19", title: "Terraform Up and Running: Writing Infrastructure as Code 3rd Edition", category: "Cloud & Virtualization", cover: "", isFeatured: false,
+    fileType: "PDF", size: "9.97 MB", pages: 460, language: "English",
+    topics: [
+      "Mengapa Terraform & Infrastructure as Code",
+      "Getting Started — Deploy di AWS",
+      "Managing Terraform State",
+      "Reusable Infrastructure dengan Terraform Modules",
+      "Loops, Conditionals & Advanced Techniques",
+      "Managing Secrets dengan Terraform",
+      "Working with Multiple Providers",
+      "Production-Grade Terraform Code",
+      "Testing Terraform Code",
+      "Terraform sebagai Tim"
+    ],
+    audienceLabel: "Intermediate | Professional",
+    audience: [
+      "DevOps Engineer & Platform Engineer yang membangun infrastruktur cloud",
+      "Cloud Engineer (AWS/GCP/Azure) yang ingin mengotomasi infrastruktur",
+      "SRE (Site Reliability Engineer) yang mengelola infrastruktur skala besar",
+      "Software Engineer yang ingin memahami Infrastructure as Code",
+      "Engineering Manager & Tech Lead yang mengadopsi IaC di tim mereka",
+      "Kandidat sertifikasi HashiCorp Terraform Associate"
+    ],
+    reviewInfo: "Buku referensi Terraform paling populer di dunia dari O'Reilly — ditulis oleh Yevgeniy Brikman, co-founder Gruntwork — kini hadir dalam edisi ketiga yang diperbarui untuk Terraform versi terbaru dengan tambahan materi Docker, Kubernetes, dan workflow tim production-grade. Catatan : Diperlukan pemahaman dasar cloud computing (AWS/GCP/Azure) dan pengalaman kerja di Linux/command line. Tidak diperlukan pengalaman Terraform sebelumnya.",
+    whyBuy: [
+      "Satu-satunya buku Terraform yang membahas testing secara mendalam (Terratest)",
+      "Chapter khusus managing secrets — topik kritis yang jarang dibahas buku IaC lain",
+      "Multi-provider: AWS + Docker + Kubernetes dalam satu deployment workflow",
+      "Production-grade checklist yang bisa langsung dipakai sebagai standar tim",
+      "Team workflow lengkap: dari version control hingga GitOps-style deployment"
+    ],
+    originalPrice: 1040000,
+    price: 260000,
+    coverPath: "assets/images/books/terraform-iac/cover/1776145834362_2358502.webp",
+    sampleImages: ["assets/images/books/terraform-iac/sample/1776145834556_2914646.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/vow326yddpv4"
+  },
+  {
+    id: "live20", title: "O'Reilly Network Warrior", category: "Networking & Infrastructure", cover: "", isFeatured: false,
+    fileType: "PDF", size: "6.31 MB", pages: 599, language: "English",
+    topics: [
+      "LAN Switching Fundamentals",
+      "Routing & Router Operation",
+      "Multilayer Switches",
+      "Telecom & WAN Technologies",
+      "Security & Firewalls",
+      "Server Load Balancing",
+      "Quality of Service (QoS)",
+      "Network Design & IP Planning",
+      "Troubleshooting, Failures & \"Network Wisdom\""
+    ],
+    audienceLabel: "Intermediate | Professional",
+    audience: [
+      "Network Engineer yang ingin memahami jaringan dari perspektif praktisi lapangan",
+      "NOC Engineer & Network Administrator yang mengelola infrastruktur Cisco sehari-hari",
+      "IT Support yang ingin naik ke level Network Engineer",
+      "Network Architect yang membutuhkan referensi desain jaringan enterprise",
+      "CCNA/CCNP holder yang ingin memperkuat pemahaman praktis di luar buku ujian"
+    ],
+    reviewInfo: "Network Warrior dari O'Reilly adalah salah satu buku networking paling legendaris yang pernah ditulis — bukan buku teori, bukan buku ujian, melainkan panduan lapangan dari seorang network engineer berpengalaman yang menuliskan cara jaringan benar-benar bekerja di dunia nyata. Catatan : Buku ini bukan buku sertifikasi — buku ini adalah panduan lapangan dari engineer nyata. Pemahaman dasar networking setara CCNA sangat dianjurkan sebelum membaca.",
+    whyBuy: [
+      "Ditulis dari perspektif praktisi — bukan dari sudut pandang akademis atau ujian",
+      "Mencakup topik yang jarang ada di buku lain: Frame Relay, T1/DS3, PIX firewall, SLB",
+      "\"GAD's Maxims\" — 3 prinsip troubleshooting dari pengalaman nyata di lapangan",
+      "Chapter \"Avoiding Frustration\" — membahas sisi manusiawi & politis dunia networking",
+      "Konten yang tetap relevan: fondasi switching, routing & QoS tidak pernah usang"
+    ],
+    originalPrice: 800000,
+    price: 200000,
+    coverPath: "assets/images/books/network-warior/cover/1776146686250_1706973.webp",
+    sampleImages: ["assets/images/books/network-warior/sample/1776146686519_2506920.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/njx10q27zvpx"
+  },
+  {
+    id: "live21", title: "Cisco pyATS Network Test and Automation Solution", category: "Networking & Infrastructure", cover: "", isFeatured: false,
+    fileType: "PDF", size: "8.77 MB", pages: 1356, language: "English",
+    topics: [
+      "Foundations of NetDevOps",
+      "Instalasi, Upgrade & Testbeds",
+      "AETest — Test Infrastructure",
+      "pyATS Parsers & Data Extraction",
+      "Test-Driven Development (TDD) untuk Jaringan",
+      "Automated Network Documentation",
+      "Automated Network Testing",
+      "Triggers, Verifications & Genie",
+      "Automated Configuration Management",
+      "Network Snapshots & State Comparison",
+      "Recordings, Playbacks & Mock Devices",
+      "API Integrations",
+      "Scaling & Performance",
+      "pyATS Clean — Device Provisioning",
+      "pyATS Blitz — Low-Code Automation",
+      "ChatBot, Containerization & Health Check",
+      "XPRESSO — pyATS Web UI",
+      "CI/CD dengan pyATS",
+      "ROBOT Framework Integration",
+      "AI dalam pyATS",
+      "Appendix"
+    ],
+    audienceLabel: "Expert",
+    audience: [
+      "Network Automation Engineer & NetDevOps Engineer",
+      "Senior Network Engineer yang ingin bertransisi ke automation & programmability",
+      "Network Software Developer yang membangun test & automation pipeline",
+      "DevOps / Platform Engineer di lingkungan Cisco",
+      "SRE yang mengelola continuous network testing & validation",
+      "Kandidat sertifikasi Cisco DevNet Professional / Expert"
+    ],
+    reviewInfo: "Panduan teknis paling lengkap dan komprehensif untuk Cisco pyATS & Genie — framework network testing dan automation open-source dari Cisco yang digunakan secara internal oleh Cisco sendiri. Dengan 1.356 halaman, buku ini mencakup seluruh ekosistem pyATS: dari instalasi hingga CI/CD pipeline production, dari parsing CLI output hingga integrasi AI dengan OpenAI & LangChain. Catatan : Diperlukan pemahaman Python menengah dan pengalaman networking Cisco.",
+    whyBuy: [
+      "Satu-satunya referensi komprehensif pyATS & Genie dalam format buku",
+      "Mencakup AI integration: OpenAI, RAG & LangChain dalam konteks networking",
+      "End-to-end CI/CD NetDevOps scenario — dari commit kode hingga deploy jaringan",
+      "Mock devices & playback recordings untuk testing offline tanpa hardware nyata",
+      "XPRESSO Web UI, WebEx chatbot, Docker containerization — ekosistem lengkap"
+    ],
+    originalPrice: 928000,
+    price: 232000,
+    coverPath: "assets/images/books/cisco-pyats/cover/1776147363915_5376665.webp",
+    sampleImages: ["assets/images/books/cisco-pyats/sample/1776147364231_4211059.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/lgnqk4mpvlje"
   }
 ];
-
