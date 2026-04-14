@@ -192,9 +192,9 @@
                 </ul>
                 
                 <div style="margin-top:2rem; display: flex; gap: 1rem;">
-                    <button class="btn btn-share" id="m-share-btn" style="width: 30%; background: transparent; border: 1px solid var(--primary-light); color: var(--primary-light); display: flex; align-items: center; justify-content: center;">
-                        <span class="share-text">Bagikan</span>
-                        <svg class="share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 20px; height: 20px; display: none;"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                    <button class="btn btn-share" id="m-share-btn" aria-label="Bagikan produk ini" title="Bagikan">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                        <span>Bagikan</span>
                     </button>
                     <a href="#" target="_blank" class="btn" id="m-buy-btn" style="width:70%; text-align:center;">Beli Sekarang</a>
                 </div>
@@ -211,8 +211,20 @@
         <img class="zoom-modal-content" id="zoomedImage">
     </div>
 
+    <!-- Social Share Popup Bottom Sheet -->
+    <div class="share-popup-overlay" id="sharePopupOverlay">
+      <div class="share-popup-sheet" id="sharePopupSheet">
+        <div class="share-popup-handle"></div>
+        <p class="share-popup-title">Bagikan Produk</p>
+        <div class="share-options-grid" id="shareOptionsGrid">
+          <!-- Options injected by JS -->
+        </div>
+        <button class="share-popup-close-btn" id="closeSharePopup">Tutup</button>
+      </div>
+    </div>
+
     <!-- Script that holds the data and logic -->
-    <script src="assets/js/booksData.js?v=20260410"></script>
-    <script src="assets/js/script.js?v=20260410"></script>
+    <script src="assets/js/booksData.js?v=20260413"></script>
+    <script src="assets/js/script.js?v=20260413"></script>
 </body>
 </html>

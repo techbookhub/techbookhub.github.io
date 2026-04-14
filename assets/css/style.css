@@ -271,18 +271,115 @@ footer { background: var(--bg-darker); border-top: 1px solid var(--glass-border)
   visibility: visible; opacity: 1; transform: translateY(0);
 }
 
-.btn-share:hover {
-  background: rgba(168, 85, 247, 0.1) !important;
-  color: white !important;
+/* Share Button — Icon + Label */
+.btn-share {
+  width: 30%;
+  min-width: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: rgba(129,140,248,0.1);
+  border: 1.5px solid var(--primary-light);
+  color: var(--primary-light);
+  border-radius: 9999px;
+  padding: 0.75rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
 }
-
-/* Share Button Responsive Logic */
-@media (max-width: 768px) {
-  .share-text { display: none; }
-  .share-icon { display: block !important; }
+.btn-share svg {
+  flex-shrink: 0;
+  stroke: currentColor;
+  display: block;
+}
+.btn-share:hover {
+  background: rgba(168, 85, 247, 0.2);
+  border-color: var(--secondary);
+  color: #fff;
+  box-shadow: 0 0 16px rgba(168,85,247,0.35);
+}
+@media (max-width: 480px) {
+  .btn-share span { display: none; }
+  .btn-share { width: auto; padding: 0.75rem 1rem; }
 }
 
 /* Discount & Price Styles - Psychological Design */
 .price-container { display: flex; align-items: center; flex-wrap: wrap; margin-bottom: 0.5rem; }
 .original-price { font-size: 1.15rem; color: #94a3b8; text-decoration: line-through; text-decoration-color: #ef4444; text-decoration-thickness: 2px; font-weight: 600; margin-right: 8px; }
 .discount-badge { background: #ef4444; color: white; padding: 3px 10px; font-size: 0.8rem; border-radius: 6px; font-weight: 800; letter-spacing: 0.5px; display: inline-block; box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3); vertical-align: middle; }
+
+/* ============================
+   Social Share Popup Modal
+   ============================ */
+.share-popup-overlay {
+  position: fixed; inset: 0; z-index: 10002;
+  background: rgba(2, 6, 23, 0.75); backdrop-filter: blur(6px);
+  display: flex; align-items: flex-end; justify-content: center;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.3s ease;
+  padding: 0 0 0 0;
+}
+.share-popup-overlay.active { opacity: 1; pointer-events: all; }
+.share-popup-sheet {
+  background: #1e293b;
+  border: 1px solid var(--glass-border);
+  border-radius: 24px 24px 0 0;
+  padding: 2rem 2rem 2.5rem;
+  width: 100%; max-width: 600px;
+  transform: translateY(100%);
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: 0 -10px 40px rgba(0,0,0,0.5);
+}
+.share-popup-overlay.active .share-popup-sheet {
+  transform: translateY(0);
+}
+.share-popup-handle {
+  width: 40px; height: 4px; background: rgba(255,255,255,0.2);
+  border-radius: 99px; margin: 0 auto 1.5rem;
+}
+.share-popup-title {
+  font-size: 1rem; font-weight: 700; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1.5rem;
+  text-align: center;
+}
+.share-options-grid {
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.share-option {
+  display: flex; flex-direction: column; align-items: center;
+  gap: 0.5rem; cursor: pointer; background: none; border: none;
+  color: var(--text-muted); transition: all 0.2s ease;
+  padding: 0.75rem 0.5rem; border-radius: 12px;
+  text-decoration: none;
+}
+.share-option:hover { background: rgba(255,255,255,0.07); color: #fff; transform: translateY(-2px); }
+.share-option-icon {
+  width: 52px; height: 52px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.share-option-icon svg { width: 28px; height: 28px; }
+.share-option span { font-size: 0.75rem; font-weight: 600; text-align: center; line-height: 1.2; }
+
+/* Platform icon background colors */
+.share-icon-wa   { background: #25d366; }
+.share-icon-tg   { background: #229ed9; }
+.share-icon-li   { background: #0a66c2; }
+.share-icon-ig   { background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); }
+.share-icon-copy { background: rgba(129,140,248,0.2); border: 1.5px solid var(--primary-light); }
+.share-icon-copy svg { stroke: var(--primary-light); }
+.share-popup-close-btn {
+  display: block; width: 100%;
+  background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border);
+  color: var(--text-muted); padding: 0.85rem; border-radius: 12px;
+  font-weight: 600; cursor: pointer; transition: 0.3s;
+  font-size: 0.95rem;
+}
+.share-popup-close-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
+@media (max-width: 480px) {
+  .share-options-grid { grid-template-columns: repeat(3, 1fr); }
+  .share-popup-sheet { padding: 1.5rem 1.5rem 2rem; }
+}
