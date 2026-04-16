@@ -1,14 +1,14 @@
-# 📚 TechBookHub
+# 📚 Digital IT Library
 
 **Empowering your tech journey with the best resources.**
 
-TechBookHub ([techbookhub.github.io](https://techbookhub.github.io)) adalah platform edukasi independen yang menyediakan referensi teknologi informasi berkualitas dengan harga terjangkau. Kami hadir untuk membantu pelajar dan profesional IT di Indonesia meningkatkan kompetensi melalui akses ke materi belajar terstruktur.
+Digital IT Library ([digitalitlibrary.store](https://digitalitlibrary.store)) adalah platform edukasi independen yang menyediakan referensi teknologi informasi berkualitas dengan harga terjangkau. Kami hadir untuk membantu pelajar dan profesional IT di Indonesia meningkatkan kompetensi melalui akses ke materi belajar terstruktur.
 
 ---
 
 ## 🎯 Misi
 
-Kami percaya bahwa peningkatan skill IT seharusnya tidak dibatasi oleh biaya tinggi. TechBookHub menyediakan alternatif terjangkau tanpa mengorbankan kualitas materi pembelajaran, sehingga mempercepat penguasaan skill teknis dan mendukung pertumbuhan karier di bidang teknologi informasi.
+Kami percaya bahwa peningkatan skill IT seharusnya tidak dibatasi oleh biaya tinggi. Digital IT Library menyediakan alternatif terjangkau tanpa mengorbankan kualitas materi pembelajaran, sehingga mempercepat penguasaan skill teknis dan mendukung pertumbuhan karier di bidang teknologi informasi.
 
 ---
 
@@ -56,7 +56,7 @@ Website ini sepenuhnya **statis** (tanpa backend server, database, atau form pen
 ## 📁 Struktur Proyek
 
 ```
-techbookhub.github.io/
+digitalitlibrary.store/
 ├── index.html                  # Halaman utama
 ├── privacy-policy.html         # Kebijakan Privasi
 ├── terms-conditions.html       # Syarat & Ketentuan
@@ -80,34 +80,34 @@ techbookhub.github.io/
 
 ## 🔒 Kebijakan Privasi
 
-- TechBookHub **tidak mengumpulkan, menyimpan, atau memproses data pribadi** pengguna.
+- Digital IT Library **tidak mengumpulkan, menyimpan, atau memproses data pribadi** pengguna.
 - **Tidak menggunakan cookies** untuk pelacakan pengguna.
 - **Tidak menggunakan Google Analytics** atau layanan analitik pihak ketiga.
 - Tautan pembelian mengarah ke platform eksternal (lynk.id), yang memiliki kebijakan privasi tersendiri.
 
-Selengkapnya: [Kebijakan Privasi](https://techbookhub.github.io/privacy-policy.html)
+Selengkapnya: [Kebijakan Privasi](https://digitalitlibrary.store/privacy-policy.html)
 
 ---
 
 ## 📝 Syarat & Ketentuan
 
 - Website ini adalah **platform promosi edukasi**, bukan penyedia langsung produk digital.
-- Semua **transaksi pembelian** dilakukan melalui platform pihak ketiga (lynk.id). TechBookHub tidak terlibat dalam proses pembayaran, pengiriman, atau layanan purna jual.
+- Semua **transaksi pembelian** dilakukan melalui platform pihak ketiga (lynk.id). Digital IT Library tidak terlibat dalam proses pembayaran, pengiriman, atau layanan purna jual.
 - Deskripsi buku, gambar cover, dan metadata ditampilkan **hanya untuk tujuan promosi edukasi**. Kami menghormati hak cipta pemilik konten asli.
-- Penggunaan TechBookHub tunduk pada **hukum Republik Indonesia**.
+- Penggunaan Digital IT Library tunduk pada **hukum Republik Indonesia**.
 
-Selengkapnya: [Syarat & Ketentuan](https://techbookhub.github.io/terms-conditions.html)
+Selengkapnya: [Syarat & Ketentuan](https://digitalitlibrary.store/terms-conditions.html)
 
 ---
 
 ## ⚠️ Disclaimer
 
-- TechBookHub **bukan situs resmi** CompTIA, Cisco, Microsoft, AWS, (ISC)², EC-Council, atau vendor teknologi lainnya.
+- Digital IT Library **bukan situs resmi** CompTIA, Cisco, Microsoft, AWS, (ISC)², EC-Council, atau vendor teknologi lainnya.
 - Materi yang tersedia dirancang untuk mempercepat penguasaan skill teknis, namun **bukan pengganti** pelatihan resmi, pengalaman kerja nyata, atau bimbingan instruktur bersertifikat.
 - Kami bekerja sama dengan lynk.id karena menyediakan sistem pembayaran terenkripsi, perlindungan konsumen, dan reputasi baik di kalangan pengguna Indonesia.
 - Teknologi berkembang sangat cepat — pengguna disarankan selalu **memverifikasi informasi kritis** dengan dokumentasi resmi atau sumber primer.
 
-Selengkapnya: [Disclaimer](https://techbookhub.github.io/disclaimer.html)
+Selengkapnya: [Disclaimer](https://digitalitlibrary.store/disclaimer.html)
 
 ---
 
@@ -115,10 +115,10 @@ Selengkapnya: [Disclaimer](https://techbookhub.github.io/disclaimer.html)
 
 - **Email**: digitalitlibrary@gmail.com
 - **Official Store**: [lynk.id/digitalitlibrary](https://lynk.id/digitalitlibrary)
-- **Website**: [techbookhub.github.io](https://techbookhub.github.io)
+- **Website**: [digitalitlibrary.store](https://digitalitlibrary.store)
 
 ---
 
 ## 📄 Lisensi
 
-© 2026 TechBookHub. All rights reserved.
+© 2026 Digital IT Library. All rights reserved.
