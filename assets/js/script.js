@@ -5,6 +5,7 @@ const formatterIDR = new Intl.NumberFormat("id-ID", { style: "currency", currenc
 let activeCategory = 'All';
 let currentSearchQuery = '';
 let currentLimit = 12;
+let booksMap = {}; // O(1) Lookup Optimization
 
 // DOM Elements
 const searchInput = document.getElementById('searchInput');
@@ -21,6 +22,9 @@ const navList = document.getElementById('nav-list');
 // to guarantee DOM is fully parsed at time of use.
 
 function init() {
+  // Populate Lookup Map for O(1) access
+  booksData.forEach(book => { booksMap[book.id] = book; });
+
   if(featuredContainer && booksContainer) {
     renderBooks();
     setupFilters();
@@ -42,11 +46,11 @@ function checkUrlForBook() {
 function openSharePopup(bookId) {
   const sharePopupOverlay = document.getElementById('sharePopupOverlay');
   const shareOptionsGrid = document.getElementById('shareOptionsGrid');
-  const book = booksData.find(b => b.id === bookId);
+  const book = booksMap[bookId];
   if (!book || !sharePopupOverlay || !shareOptionsGrid) return;
 
   const url = encodeURIComponent(window.location.origin + window.location.pathname + '?book=' + bookId);
-  const text = encodeURIComponent('Cek e-book "' + book.title + '" di TechBookHub! ');
+  const text = encodeURIComponent('Cek e-book "' + book.title + '" di Digital IT Library! ');
 
   shareOptionsGrid.innerHTML = `
     <a class="share-option" href="https://api.whatsapp.com/send?text=${text}${url}" target="_blank" rel="noopener" aria-label="Bagikan ke WhatsApp">
@@ -203,24 +207,28 @@ function renderBooks() {
   let featuredCards = '';   // Bug #1 Fix: string buffer untuk featured
   let normalBooks = [];
 
-  booksData.forEach(book => {
-    // 1. Filter Kategori
-    if (activeCategory !== 'All' && book.category !== activeCategory) return;
+  // Use a more efficient single-pass iteration
+  const length = booksData.length;
+  for (let i = 0; i < length; i++) {
+    const book = booksData[i];
     
-    // 2. Filter Pencarian
+    // 1. Filter Category
+    if (activeCategory !== 'All' && book.category !== activeCategory) continue;
+    
+    // 2. Filter Search
     if (currentSearchQuery) {
-      const isMatch = book.title.toLowerCase().includes(currentSearchQuery) || book.category.toLowerCase().includes(currentSearchQuery);
-      if (!isMatch) return;
+      if (!book.title.toLowerCase().includes(currentSearchQuery) && 
+          !book.category.toLowerCase().includes(currentSearchQuery)) continue;
     }
 
-    // 3. Pemisahan Featured vs Normal
+    // 3. Separate Featured vs Normal
     if (book.isFeatured && activeCategory === 'All' && !currentSearchQuery) {
       featuredCount++;
-      featuredCards += createCardHTML(book); // Bug #1 Fix: akumulasi string dulu
+      featuredCards += createCardHTML(book);
     } else {
       normalBooks.push(book);
     }
-  });
+  }
 
   // Bug #1 Fix: inject Featured sekaligus, bukan per iterasi
   featuredContainer.innerHTML = featuredCards;
@@ -261,7 +269,7 @@ function setupFilters() {
 }
 
 function openModal(bookId) {
-  const book = booksData.find(b => b.id === bookId);
+  const book = booksMap[bookId];
   if(!book) return;
 
   document.getElementById('m-title').innerText = book.title;
