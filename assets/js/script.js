@@ -175,10 +175,14 @@ function createCardHTML(book) {
   const priceFormatted = book.price ? formatterIDR.format(book.price) : '';
   const originalPriceFormatted = book.originalPrice ? formatterIDR.format(book.originalPrice) : '';
 
+  const discountPercent = book.originalPrice 
+    ? Math.round((1 - (book.price / book.originalPrice)) * 100) 
+    : 0;
+
   const priceHTML = book.originalPrice 
     ? `<div class="price-container" style="flex-direction: column; align-items: flex-start; margin-bottom:1rem;">
          <span class="original-price" style="margin:0;">${originalPriceFormatted}</span>
-         <span class="discount-badge" style="margin-top:4px;">Disc. 75%</span>
+         <span class="discount-badge" style="margin-top:4px;">Disc. ${discountPercent}%</span>
          <p class="book-price" style="margin-top:8px; margin-bottom:0;">${priceFormatted}</p>
        </div>`
     : (priceFormatted ? `<p class="book-price">${priceFormatted}</p>` : '');
@@ -279,10 +283,11 @@ function openModal(bookId) {
   const mPriceWrap = document.getElementById('m-price-wrap');
   if(mPriceWrap) {
     if (book.originalPrice && book.price) {
+       const mDiscountPercent = Math.round((1 - (book.price / book.originalPrice)) * 100);
        mPriceWrap.innerHTML = `
          <div style="display:flex; flex-direction:column; align-items:flex-start;">
            <span class="original-price" style="margin:0;">${formatterIDR.format(book.originalPrice)}</span>
-           <span class="discount-badge" style="margin-top:4px;">Disc. 75%</span>
+           <span class="discount-badge" style="margin-top:4px;">Disc. ${mDiscountPercent}%</span>
          </div>
          <div class="m-price-tag" style="margin-top:8px;">${formatterIDR.format(book.price)}</div>
        `;
