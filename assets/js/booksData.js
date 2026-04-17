@@ -811,10 +811,179 @@ const booksData = [
       "Mock devices & playback recordings untuk testing offline tanpa hardware nyata",
       "XPRESSO Web UI, WebEx chatbot, Docker containerization — ekosistem lengkap"
     ],
-    originalPrice: 928000,
-    price: 232000,
-    coverPath: "assets/images/books/cisco-pyats/cover/1776147363915_5376665.webp",
-    sampleImages: ["assets/images/books/cisco-pyats/sample/1776147364231_4211059.webp"],
     buyUrl: "https://lynk.id/digitalitlibrary/lgnqk4mpvlje"
+  },
+  {
+    id: "live22", title: "CISSP Official Cert Guide 10th Edition", category: "Security & Assurance", cover: "", isFeatured: true,
+    fileType: "PDF", size: "29.4 MB", pages: 2249, language: "English",
+    topics: [
+      "Security Governance Through Principles and Policies (Security concepts, boundaries, governance principles, threat modeling)",
+      "Personnel Security and Risk Management (Security policies, social engineering, awareness & training)",
+      "Business Continuity Planning (Project scope, BIA, continuity planning, plan approval)",
+      "Laws, Regulations, and Compliance (Categories of laws, privacy laws, compliance frameworks)",
+      "Protecting Security of Assets (Information & asset classification, data handling, protection methods)",
+      "Cryptography and Symmetric Key Algorithms (Cryptographic foundations, DES/3DES/AES/Blowfish)",
+      "PKI and Cryptographic Applications (Asymmetric crypto: RSA/ECC/DH, hashes, digital signatures, PKI)",
+      "Security Models, Design, and Capabilities (Security models: Bell-LaPadula/Biba/Clark-Wilson)",
+      "Security Vulnerabilities, Threats, and Countermeasures (Cloud, ICS, IoT, microservices, IaC, virtualization)",
+      "Physical Security Requirements (Site & facility design, security controls, implementation)",
+      "Secure Network Architecture and Components (OSI, TCP/IP, DNS, IP networking, ARP, secure protocols)",
+      "Secure Communications and Network Attacks (VPN, switching/VLANs, NAT, WAN, network attack mitigation)",
+      "Managing Identity and Authentication (AAA model, identity management, lifecycle)",
+      "Controlling and Monitoring Access (Access control models, zero-trust, access attacks)",
+      "Security Assessment and Testing (Vulnerability assessments, software testing, status reporting)",
+      "Managing Security Operations (Resource protection, configuration management, change/patch management)",
+      "Preventing and Responding to Incidents (Incident management, detection, logging, automation)",
+      "Disaster Recovery Planning (Resilience, recovery strategy, plan development & maintenance)",
+      "Investigations and Ethics (Investigation procedures, crime categories, professional ethics)",
+      "Software Development Security (Lifecycle, database & storage threats, knowledge-based systems)",
+      "Malicious Code and Application Attacks (Malware types, injection, web vulnerabilities, secure coding)"
+    ],
+    audienceLabel: "Expert 🔴",
+    audience: [
+      "Kandidat ujian CISSP (Certified Information Systems Security Professional)",
+      "CISO, Security Director & VP of Information Security",
+      "Senior Security Architect & Security Engineer",
+      "IT Auditor & Compliance Officer tingkat senior",
+      "Security Consultant yang menangani klien enterprise & pemerintah"
+    ],
+    reviewInfo: "CISSP Official Study Guide edisi ke-10 dari Sybex/Wiley — referensi ujian CISSP paling otoritatif di dunia. Diperbarui penuh sesuai CISSP CBK 2024 terbaru, buku ini mencakup seluruh 8 domain secara mendalam, dari prinsip governance hingga software development security. Gold standard bagi profesional cybersecurity senior.",
+    whyBuy: [
+      "Diperbarui penuh sesuai CISSP CBK 2024 terbaru",
+      "Mencakup Zero Trust, IoT, IaC, dan containerization",
+      "Written Labs eksklusif di setiap chapter untuk latihan aplikatif",
+      "Panduan terlengkap mencakup seluruh 8 domain CISSP",
+      "Dilengkapi Assessment Test dan Review Questions mendalam"
+    ],
+    originalPrice: 1120000,
+    price: 448000,
+    coverPath: "assets/images/books/cissp-10th/cover/1776417092838_7799664.webp",
+    sampleImages: ["assets/images/books/cissp-10th/sample/1776417093138_7002871.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/pyxgx0rdqv0d"
+  },
+  {
+    id: "live23", title: "CompTIA SecurityX CAS-005 Certification Guide Second Edition", category: "Security & Assurance", cover: "", isFeatured: true,
+    fileType: "PDF", size: "10.3 MB", pages: 698, language: "English",
+    topics: [
+      "Governance, Risk & Compliance (Policies, Procedures, Standards, RACI Matrix)",
+      "Security Program Management (Awareness, Management Commitment, GRC Tools)",
+      "Governance Frameworks (COBIT, ITIL, Asset Life Cycle, CMDB)",
+      "Risk Management Activities (Impact Analysis, Quantitative vs Qualitative, Prioritization)",
+      "Third-Party & Supply Chain Risk (Vendor Risk, BC/DR Planning, Backup Strategies)",
+      "Compliance & Legal Requirements (HIPAA, PCI DSS, ISO 27000, GDPR, NIST CSF)",
+      "Threat Modeling (MITRE ATT&CK, Cyber Kill Chain, STRIDE, OWASP)",
+      "AI Security Challenges (Prompt Injection, Poisoning, Deepfake, AI Ethics)",
+      "Resilient System Design (Firewalls, IDS/IPS, VPN, NAC, WAF, Load Balancing)",
+      "Secure Systems Development Life Cycle (SAST, DAST, SBoM, CI/CD)",
+      "Identity & Access Management (SSO, MFA, Kerberos, OAuth, OpenID, PAM, PKI)",
+      "Cloud Security (CASB, Shared Responsibility, Container & API Security)",
+      "Zero Trust Architecture (Microsegmentation, SASE, SDN, SD-WAN)",
+      "Hardware Security (TPM, HSM, Secure Boot, Firmware Tampering)",
+      "OT, IoT & Legacy System Security (SCADA, PLC, ICS, Embedded Systems)",
+      "Security Automation (PowerShell, Bash, Python, IaC, SOAR, Generative AI)",
+      "Advanced Cryptographic Concepts (Post-Quantum Crypto, Homomorphic Encryption)"
+    ],
+    audienceLabel: "Expert 🔴",
+    audience: [
+      "Kandidat ujian CompTIA SecurityX (CAS-005)",
+      "Senior Security Engineer & Security Architect",
+      "SOC Lead, Threat Intelligence Analyst & Red/Blue Team Professional",
+      "Cloud Security Engineer & DevSecOps Practitioner",
+      "IT Risk Manager & Compliance Officer tingkat lanjut"
+    ],
+    reviewInfo: "Panduan sertifikasi resmi untuk ujian CompTIA SecurityX (CAS-005) tingkat lanjut. Membahas tantangan keamanan enterprise pada lingkungan cloud, hybrid, OT/IoT, Zero Trust, dan AI dengan pendekatan skenario nyata.",
+    whyBuy: [
+      "Scenario-based questions sesuai format ujian CAS-005 terbaru",
+      "Update mendalam topik AI Security, Post-Quantum Crypto, dan Zero Trust",
+      "Cakupan teknis enterprise architecture yang sangat luas",
+      "Panduan otomasi keamanan dengan Python, PowerShell, dan Bash",
+      "Studi kasus industri Healthcare, Financial, dan Government"
+    ],
+    originalPrice: 719840,
+    price: 287936,
+    coverPath: "assets/images/books/comptia-securityx/cover/1776415824173_3773958.webp",
+    sampleImages: ["assets/images/books/comptia-securityx/sample/1776415824495_9072901.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/m03e3jm29lpy"
+  },
+  {
+    id: "live24", title: "Hacking: The Art of Exploitation, 2nd Edition", category: "Security & Assurance", cover: "", isFeatured: true,
+    fileType: "PDF", size: "4.02 MB", pages: 492, language: "English",
+    topics: [
+      "Programming Fundamentals (x86 Assembly, Memory Segmentation, Pointers, Stack)",
+      "Memory & Low-Level Concepts (Heap Management, Structs, File Permissions)",
+      "Exploitation Techniques (Stack-Based & Heap-Based Buffer Overflows)",
+      "Format String Vulnerabilities (Reading/Writing Arbitrary Memory, GOT Overwriting)",
+      "Networking & Low-Level Programming (Sockets, Raw Packet Crafting, OSI Layers)",
+      "Network Sniffing & Injection (ARP Poisoning, libpcap, Decoding Layers)",
+      "Denial of Service (DoS) (SYN Flooding, Teardrop, TCP/IP Hijacking)",
+      "Port Scanning & Reconnaissance (Stealth SYN Scan, Idle Scanning, Decoys)",
+      "Shellcode Development (Assembly vs C, System Calls, Connect-Back Shellcode)",
+      "Hardening & Bypass Techniques (Nonexecutable Stack, ret2libc, Stack Randomization)",
+      "Cryptology & Encryption (RSA, Hybrid Ciphers, MitM Attacks)",
+      "Wireless Encryption & WEP Attacks (RC4, Keystream Reuse, FMS Attack)"
+    ],
+    audienceLabel: "Professional | Expert 🔴",
+    audience: [
+      "Penetration Tester & Ethical Hacker (Low-level focus)",
+      "Exploit Developer & Vulnerability Researcher",
+      "Reverse Engineer & Malware Analyst",
+      "CTF Player (Pwn, Shellcoding, Network Exploitation)",
+      "Kandidat sertifikasi OSCP / OSED / OSEE"
+    ],
+    reviewInfo: "Buku hacking paling ikonik yang mengajarkan eksploitasi dari tingkat fundamental — bukan sekadar menggunakan tools, tetapi memahami cara kerja memori, assembly, dan shellcode. Referensi wajib bagi offensive security professional.",
+    whyBuy: [
+      "Pendekatan hands-on dengan kode C dan Assembly murni",
+      "Belajar exploit development dari cara kerja memori terdalam",
+      "Membahas teknik bypass modern dan shellcoding dari nol",
+      "Penjelasan teknis terbaik untuk buffer overflow & format string",
+      "Cocok sebagai persiapan sertifikasi advanced seperti OSED/OSEE"
+    ],
+    originalPrice: 799200,
+    price: 319680,
+    coverPath: "assets/images/books/hacking-the-art/cover/1776421006369_2860745.webp",
+    sampleImages: ["assets/images/books/hacking-the-art/sample/1776421006578_7028698.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/mqdldpyedevk"
+  },
+  {
+    id: "live25", title: "Serious Cryptography — A Practical Introduction to Modern Cryptography", category: "Security & Assurance", cover: "", isFeatured: true,
+    fileType: "PDF", size: "10.1 MB", pages: 379, language: "English",
+    topics: [
+      "Enkripsi & Dasar Kriptografi (Classical, Asymmetric, Homomorphic, Searchable)",
+      "Randomness & Entropi (PRNG, Fortuna, Source of Entropy, Linux /dev/random)",
+      "Keamanan Kriptografis (Computational Security, Provable Security, Key Generation)",
+      "Block Ciphers (AES, Modes: CBC/CTR/ECB, Padding Oracle, MitM Attacks)",
+      "Stream Ciphers (RC4, Salsa20, Nonce Reuse, Feedback Shift Registers)",
+      "Hash Functions (SHA-2, SHA-3, Keccak, Collision Resistance, Length Extension)",
+      "Keyed Hashing & MAC (HMAC, Poly1305, SipHash, Timing Attacks)",
+      "Authenticated Encryption (AES-GCM, OCB, SIV, AEAD, Encrypt-Then-MAC)",
+      "Hard Problems in Asymmetric Crypto (Factoring, Discrete Logarithm, P vs NP)",
+      "RSA (Key Generation, OAEP Encryption, PSS Signature, Bellcore Attack)",
+      "Diffie-Hellman (Key Agreement, Anonymous & Authenticated DH, MQV)",
+      "Elliptic Curve Cryptography (ECDH, ECDSA, Ed25519, Curve25519, NIST Curves)",
+      "TLS (TLS 1.3, Handshake, Certificate Authority, Forward Secrecy)",
+      "Quantum & Post-Quantum Crypto (Shor's & Grover's Algorithms, Lattice-Based)",
+      "Kriptografi dalam Cryptocurrency (Merkle Trees, PoW, ZK-Proofs, zkSNARKs)"
+    ],
+    audienceLabel: "Professional | Expert 🔴",
+    audience: [
+      "Software Engineer & Developer yang mengimplementasikan kriptografi",
+      "Security Researcher & Cryptography Enthusiast",
+      "Blockchain Developer & Web3 Engineer",
+      "Penetration Tester yang ingin memahami kelemahan kriptografi",
+      "Akademisi & Mahasiswa S2/S3 bidang Information Security"
+    ],
+    reviewInfo: "Referensi kriptografi modern paling praktis yang membahas cara kerja algoritma secara mendalam. Fitur uniknya adalah analisis 'How Things Can Go Wrong' di setiap bab untuk menghindari kegagalan implementasi nyata.",
+    whyBuy: [
+      "Buku kriptografi paling praktis dengan analisis kegagalan nyata",
+      "Mencakup topik mutakhir: Post-Quantum Crypto & zkSNARKs",
+      "Penjelasan matematis yang terstruktur untuk software engineer",
+      "Membahas detail teknis TLS 1.3 dan ECC secara mendalam",
+      "Wajib untuk developer blockchain dan security researcher"
+    ],
+    originalPrice: 959840,
+    price: 383936,
+    coverPath: "assets/images/books/serious-cryptography/cover/1776417953290_1327448.webp",
+    sampleImages: ["assets/images/books/serious-cryptography/sample/1776417953512_5629773.webp"],
+    buyUrl: "https://lynk.id/digitalitlibrary/w8x3x9ndly63"
   }
 ];
