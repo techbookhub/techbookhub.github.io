@@ -811,6 +811,10 @@ const booksData = [
       "Mock devices & playback recordings untuk testing offline tanpa hardware nyata",
       "XPRESSO Web UI, WebEx chatbot, Docker containerization — ekosistem lengkap"
     ],
+    originalPrice: 928000,
+    price: 232000,
+    coverPath: "assets/images/books/cisco-pyats/cover/1776147363915_5376665.webp",
+    sampleImages: ["assets/images/books/cisco-pyats/sample/1776147364231_4211059.webp"],
     buyUrl: "https://lynk.id/digitalitlibrary/lgnqk4mpvlje"
   },
   {
